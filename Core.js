@@ -4892,6 +4892,41 @@ A17.send5ButImg(yoi, txt, `${global.BotName}`, BotLogo, btn, Thumb)
 replay('Broadcast Sent !')
 }
 break    
+case 'groupmenu' :{
+if (isBan) return reply(mess.banned)	 			
+if (isBanChat) return reply(mess.bangc)
+ reply(`╭╼━᚜ 𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜× ᚛━╾╮
+│                                      ❒
+│ *My prefix*       : ( ${prefix} )
+│ *My name*       : ${global.BotName}
+│ *User name*    : ${pushname}
+│ *Owner name* : ${global.OwnerName}
+│ *Owner no.*     : http://wa.me//${global.Owner}
+│ *Group name*  : ${groupMetadata.subject}
+│                                      ❒
+╰╼━━━━━━━━━━━━╾╯
+╭╼━᚜ 𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜× ᚛━╾╮
+│
+│❒🔥 ${prefix}deletethis *(any msg)*
+│❒🔥 ${prefix}promote
+│❒🔥 ${prefix}demote
+│❒🔥 ${prefix}revoke
+│❒🔥 ${prefix}add
+│❒🔥 ${prefix}remove
+│❒🔥 ${prefix}tagall
+│❒🔥 ${prefix}hidetag
+│❒🔥 ${prefix}afk  *(type reason)*
+│❒🔥 ${prefix}grouplink
+│❒🔥 ${prefix}setgcpp
+│❒🔥 ${prefix}setname
+│❒🔥 ${prefix}setdesc
+│❒🔥 ${prefix}group  *(open/close)*
+│❒🔥 ${prefix}antivirus
+│❒🔥 ${prefix}antitoxic        
+│
+╰╼≺${global.BotName}≻`
+)}
+break
 
 
 case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
