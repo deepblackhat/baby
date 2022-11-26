@@ -1488,21 +1488,13 @@ switch(command) {
     break
 
 case 'botgrups':
-
 case 'botgroups':
-
 case 'botgrup':
-
 case 'botgroup':
-
 if (isBan) return reply(mess.ban)	 			if (isBanChat) return reply(mess.banChat)
-
 reply(` Don't forget to join yeah!
 
-*GROUP 1*
-
-https://chat.whatsapp.com/EsNqFrGKxGXFrdwgRaQl9q`)
-
+*GROUP 1*https://chat.whatsapp.com/EsNqFrGKxGXFrdwgRaQl9q`)
 break
 case 'me': case 'profile': case 'p':
     if (isBan) return reply(mess.banned)	 			
