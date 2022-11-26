@@ -1486,16 +1486,13 @@ switch(command) {
     A17.sendMessage(m.chat, buttonMessage, { quoted: m })
     }
     break
+case 'support': case 'supportgc':
 
-case 'botgrups':
-case 'botgroups':
-case 'botgrup':
-case 'botgroup':
-if (isBan) return reply(mess.ban)	 			if (isBanChat) return reply(mess.banChat)
-reply(` Don't forget to join yeah!
+    
 
-*GROUP 1*https://chat.whatsapp.com/EsNqFrGKxGXFrdwgRaQl9q`)
-break
+reply(`*My developer's group:*\n\n https://chat.whatsapp.com/EsNqFrGKxGXFrdwgRaQl9q`)
+
+    break
 case 'me': case 'profile': case 'p':
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
