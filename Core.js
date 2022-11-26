@@ -5393,6 +5393,39 @@ reply(`╭╼━᚜ 𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜× ᚛━╾╮
 ╰╼≺${global.BotName}≻`
 )}
 break
+case 'downloadmenu' : {
+if (isBan) return reply(mess.banned)	 			
+if (isBanChat) return reply(mess.bangc)
+ reply(`╭╼━᚜ 𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜× ᚛━╾╮
+│                                      ❒
+│ *My prefix*       : ( - )
+│ *My name*       : ${global.BotName}
+│ *User name*    : ${pushname}
+│ *Owner name* : ${global.OwnerName}
+│ *Owner no.*     : http://wa.me//${global.Owner}
+│ *Group name*  : ${groupMetadata.subject}
+│                                      ❒
+╰╼━━━━━━━━━━━━╾╯
+╭╼━᚜ 𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜× ᚛━╾╮
+
+❒🔥 ${prefix}play
+❒🔥 ${prefix}ytmp3
+❒🔥 ${prefix}ytmp4
+❒🔥 ${prefix}ytvideo
+❒🔥 ${prefix}instagram
+❒🔥 ${prefix}igtv
+❒🔥 ${prefix}facebook
+❒🔥 ${prefix}fbmp3
+❒🔥 ${prefix}twitter
+❒🔥 ${prefix}twittermp3
+❒🔥 ${prefix}tiktok
+❒🔥 ${prefix}tiktokaudio
+❒🔥 ${prefix}tiktoknowm
+❒🔥 ${prefix}mediafire        
+
+╰╼≺${global.BotName}≻`
+)}
+break
 
 case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
     if (isBan) return reply(mess.banned)	 			
