@@ -2575,11 +2575,11 @@ if (isBanChat) return reply(mess.bangc)
  if (isBanChat) return reply(mess.bangc)
  if (!m.isGroup) return replay(mess.grouponly)
  if (!isAdmins && !isCreator) return replay(mess.useradmin)
- let teks = `「 _Tag All_ 」
+ let teks = `╭━━━≺ 𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜×-𝗧𝗔𝗚 ≻━━━╮
   
-   𝗚𝗿𝗼𝘂𝗽💕: *${groupMetadata.subject}*
+ 𝗚𝗿𝗼𝘂𝗽💕: *${groupMetadata.subject}*
   
-  𝗔𝗡𝗡𝗢𝗨𝗡𝗖𝗘𝗥👻:  @${m.sender.split('@')[0]}
+ 𝗔𝗡𝗡𝗢𝗨𝗡𝗖𝗘𝗥👻:  @${m.sender.split('@')[0]}
 
 *Message : ${args.join(" ") ? args.join(" ") : 'no message'}*\n\n`
  for (let mem of participants) {
