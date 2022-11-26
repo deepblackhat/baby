@@ -2587,9 +2587,9 @@ if (isBanChat) return reply(mess.bangc)
                 for (let mem of participants) {
                 Text += `💔@${mem.id.split('@')[0]}\n`
                 }
- A17.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, { quoted: m })
- }
- break
+                A17.sendMessage(m.chat, { text: Text, mentions: participants.map(a => a.id) }, { quoted: m })
+                }
+                break
 
  case 'hidetag': {
     if (isBan) return reply(mess.banned)	 			
