@@ -5028,7 +5028,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
           listType: 1
                 }
             }), {})
-            Nexus.relayMessage(m.chat, template.message, { messageId: template.key.id })
+            A17.relayMessage(m.chat, template.message, { messageId: template.key.id })
             }
             break
 case 'groupmenu' :{
