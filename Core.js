@@ -2582,7 +2582,7 @@ if (isBanChat) return reply(mess.bangc)
 ┃𝗔𝗡𝗡𝗢𝗨𝗡𝗖𝗘𝗥👻:  @${m.sender.split('@')[0]}
 ┃┄┄┄┄┄┄┄┄┄┄┄
 ┃*Message : ${args.join(" ") ? args.join(" ") : 'no message'}*\n\n`
-╭╼━━━━≺ 𝗠𝗘𝗠𝗕𝗘𝗥𝗦 ≻━━━╾╮
+
  for (let mem of participants) {
  teks += `💔 @${mem.id.split('@')[0]}\n`
  }
