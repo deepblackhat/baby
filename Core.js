@@ -474,7 +474,16 @@ var levelRole = getLevelingLevel(m.sender)
                                         addLevelingXp(m.sender, amountXp)
                                         if (requiredXp <= getLevelingXp(m.sender)) {
                                         addLevelingLevel(m.sender, 1)
-teks = `「 *User Level UP* 」\n\n@${m.sender.split("@")[0]} got leveled up!!\n\n*User XP*: ${getLevelingXp(m.sender)}\n*Level*: ${getLevel} -> ${getLevelingLevel(m.sender)}\n*Role*: ${role} \n\n`
+teks = `╭───「 *🥳ʟᴇᴠᴇʟ ᴜᴘ🥳* 」
+│
+├ 💜 𝗡𝗮𝗺𝗲 : ${pushname}
+├ 📱 𝗡𝘂𝗺𝗯𝗲𝗿 : ${sender.split('@')[0]}
+├ 🏅 𝗥𝗮𝗻𝗸 : ${role}
+├ 🔖 𝗫𝗣 : ${getLevelingXp(sender)}
+├ 💠 𝗟𝗲𝘃𝗲𝗹  : ${getLevelingLevel(sender)}
+│
+╰───「 *🥳ʟᴇᴠᴇʟ ᴜᴘ🥳* 」`)
+		  
 A17.sendMessage(m.chat, {text: teks, mentions:[m.sender]}, {quoted:m})
 }
 
