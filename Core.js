@@ -5166,6 +5166,38 @@ reply( `╭╼━᚜ 𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜× ᚛━╾╮
 ╰╼≺${global.BotName}≻`
 )}
 break	
+break	
+case 'voicechangermenu' : {
+if (isBan) return reply(mess.banned)	 			
+if (isBanChat) return reply(mess.bangc)
+reply(`╭╼━᚜ 𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜× ᚛━╾╮
+│                                      ❒
+│ *My prefix*       : ( ${prefix} )
+│ *My name*       : ${global.BotName}
+│ *User name*    : ${pushname}
+│ *Owner name* : ${global.OwnerName}
+│ *Owner no.*     : http://wa.me//${global.pmo}
+│ *Group name*  : ${groupMetadata.subject}
+│                                      ❒
+╰╼━━━━━━━━━━━━╾╯
+╭╼━᚜ 𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜×   ᚛━╾╮
+
+❒🔥 ${prefix}bass
+❒🔥 ${prefix}tempo
+❒🔥 ${prefix}blown
+❒🔥 ${prefix}deep
+❒🔥 ${prefix}earrape
+❒🔥 ${prefix}fast
+❒🔥 ${prefix}fat
+❒🔥 ${prefix}nightcore
+❒🔥 ${prefix}reverse
+❒🔥 ${prefix}robot
+❒🔥 ${prefix}slow
+❒🔥 ${prefix}squirrel       
+
+╰╼≺${global.BotName}≻`
+)}
+break
 
 case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
     if (isBan) return reply(mess.banned)	 			
