@@ -5077,6 +5077,52 @@ if (isBanChat) return reply(mess.bangc)
 )}
 break
 
+case  'command' : {
+		if (isBan) return reply(mess.banned)	 			
+    		if (isBanChat) return reply(mess.bangc)
+		let sections = []
+		let  nexusmenu = [`ownermenu`,`textpromenu`,`groupmenu`,`funmenu`,`downloadmenu`,`voicechangermenu`,`animemenu`]
+		let marin2 = [`𝐎𝐍𝐋𝐘 𝐅𝐎𝐑 𝐎𝐖𝐍𝐄𝐑 𓆩😎𓆪 `,`𝐓𝐗𝐓-𝐈𝐌𝐆-𝐌𝐀𝐊𝐄𝐑 𝐌𝐄𝐍𝐔 𓆩🤯𓆪 `,`𝐎𝐍𝐋𝐘 𝐅𝐎𝐑 𝐆𝐑𝐎𝐔𝐏𝐀𝐃𝐌𝐈𝐍𝐒 𓆩🤖𓆪 `,`𝐅𝐎𝐑 𝐅𝐔𝐍 𓆩😁𓆪 `,`𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐌𝐄𝐍𝐔 𓆩😲𓆪 `,`𝐂𝐇𝐀𝐍𝐆𝐄 𝐕𝐎𝐈𝐂𝐄 𝐎𝐅 𝐀𝐍𝐘 𝐀𝐔𝐃𝐈𝐎 𓆩😌𓆪 `,`𝐀𝐍𝐈𝐌𝐄 𝐌𝐄𝐍𝐔 𓆩🥴𓆪 `]
+		let ne = [` ONLY OWNER CAMMANDS`,`click TO GET TXT TO IMG MENU`,`TAP TO GET GROUPMENU`,`TAP TO GET FUNMENU`,`TAP TO GET DOWNLOADMENU`,`TAP TO GET VOICE CHANGER MENU`,`TAP TO GET ANIME MENU`]
+		let startnum = 0; let startnu = 0; let startn = 0;let start = 0
+                    let startnumm = 1
+                    for (let x of nexusmenu) {
+                        const yy = {title: `${marin2[startnum++]}`,
+                    rows: [
+                       {
+                        title: `${marin2[startnu++]}`,
+                        description: `${ne[0]}`,
+                        rowId: `${prefix}${x}`
+                      }
+                    ]
+                   }
+                        sections.push(yy)
+                    }
+                    const sendm =  A17.sendMessage(
+      from, 
+      {
+       text: "LIST MENU",
+       footer: `${BotName}`,
+       title: "CHECK THE MENU LIST......",
+       title: `\n╭╼━━━᚜ 𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜× ᚛━━━╾╮
+│                                                 ❒
+🔥 *My prefix*       : ( ${prefix} )
+❤️ *My name*       : ${global.BotName}
+🥵 *User name*    : ${pushname}
+😻 *Bot speed*      : ${latensie.toFixed(4)} ms
+🐤 *Bot runtime*   : ${runtime(process.uptime())}
+❤️‍🔥 *Bot users*      : ${Object.keys(global.db.users).length}
+🎃 *Owner name* : ${global.OwnerName}
+🦊 *Owner num.*  : http://wa.me//${global.PermanentOwnerNumber}
+🍓 *Group name*  : ${groupMetadata.subject}
+│                                                 ❒
+╰╼━━━━━━━━━━━━━━━━╾╯\n\n_Tap here for *full commands*_ 🐤👇\nㅤ`,
+       buttonText: "Click Button",
+       sections
+      }, { quoted : m }
+    )  
+}
+  break
 
 case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
     if (isBan) return reply(mess.banned)	 			
