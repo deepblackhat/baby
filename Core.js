@@ -5122,7 +5122,50 @@ case  'command' : {
       }, { quoted : m }
     )  
 }
-  break
+  
+break
+case 'animemenu' : {
+if (isBan) return reply(mess.banned)	 			
+if (isBanChat) return reply(mess.bangc)
+reply( `╭╼━᚜ 𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜× ᚛━╾╮
+│                                      ❒
+│ *My prefix*       : ( ${prefix} )
+│ *My name*       : ${global.BotName}
+│ *User name*    : ${pushname}
+│ *Owner name* : ${global.OwnerName}
+│ *Owner no.*     : http://wa.me//${global.Owner}
+│ *Group name*  : ${groupMetadata.subject}
+│                                      ❒
+╰╼━━━━━━━━━━━━╾╯
+╭╼━᚜ 𓆩🥰𓆪  𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜× 𓆩😈𓆪  ᚛━╾╮
+
+❒🔥 ${prefix}crosplay
+❒🔥 ${prefix}waifu
+❒🔥 ${prefix}loli
+❒🔥 ${prefix}neko
+❒🔥 ${prefix}ppcouple
+❒🔥 ${prefix}feed
+❒🔥 ${prefix}foxgirl
+❒🔥 ${prefix}feed
+❒🔥 ${prefix}meow
+❒🔥 ${prefix}tickle
+❒🔥 ${prefix}wallpaper
+❒🔥 ${prefix}coffee
+❒🔥 ${prefix}animenom
+❒🔥 ${prefix}waifu3
+❒🔥 ${prefix}neko2
+❒🔥 ${prefix}feed
+❒🔥 ${prefix}meow
+❒🔥 ${prefix}tickle
+❒🔥 ${prefix}migumin
+❒🔥 ${prefix}awoo
+❒🔥 ${prefix}animewallpaper2
+❒🔥 ${prefix}anime
+❒🔥 ${prefix}manga        
+
+╰╼≺${global.BotName}≻`
+)}
+break	
 
 case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
     if (isBan) return reply(mess.banned)	 			
