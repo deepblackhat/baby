@@ -2575,12 +2575,18 @@ if (isBanChat) return reply(mess.bangc)
  if (isBanChat) return reply(mess.bangc)
  if (!m.isGroup) return replay(mess.grouponly)
  if (!isAdmins && !isCreator) return replay(mess.useradmin)
- let teks = `「 _Tag All_ 」
-  
- *Message : ${args.join(" ") ? args.join(" ") : 'no message'}*\n\n`
- for (let mem of participants) {
- teks += `» @${mem.id.split('@')[0]}\n`
- }
+ let teks = `╭━━━≺ 𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜×-𝗧𝗔𝗚 ≻━━━╮
+┃
+┃┄┄┄┄┄┄┄┄┄┄┄
+┃ 𝗚𝗿𝗼𝘂𝗽💕: *${groupMetadata.subject}*
+┃┄┄┄┄┄┄┄┄┄┄┄
+┃ 𝗠𝗘𝗦𝗦𝗔𝗚𝗘👑 : ${args.join(" ") ? args.join(" ") : 'no message'}*
+┃┄┄┄┄┄┄┄┄┄┄┄
+┃ 𝗔𝗡𝗡𝗢𝗨𝗡𝗖𝗘𝗥👻:  @${m.sender.split('@')[0]}
+┗━━━━━━━━□ \n\n╭╼━━━━≺ 𝗠𝗘𝗠𝗕𝗘𝗥𝗦 ≻━━━╾╮\n\n` 
+                for (let mem of participants) {
+                Text += `💔@${mem.id.split('@')[0]}\n`
+                }
  A17.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, { quoted: m })
  }
  break
