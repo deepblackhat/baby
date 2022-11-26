@@ -474,7 +474,7 @@ var levelRole = getLevelingLevel(m.sender)
                                         addLevelingXp(m.sender, amountXp)
                                         if (requiredXp <= getLevelingXp(m.sender)) {
                                         addLevelingLevel(m.sender, 1)
-teks = `╔════ *🥳ʟᴇᴠᴇʟ ᴜᴘ🥳*════╗\n\n┃@${m.sender.split("@")[0]} got leveled up!!\n\n┃*User XP*: ${getLevelingXp(m.sender)}\n*Level*: ${getLevel} -> ${getLevelingLevel(m.sender)}\n*Role*: ┃${role} \n\n`
+teks = `╔════ *🥳ʟᴇᴠᴇʟ ᴜᴘ🥳*════╗\n\n@${m.sender.split("@")[0]} got leveled up!!\n\n*User XP*: ${getLevelingXp(m.sender)}\n*Level*: ${getLevel} -> ${getLevelingLevel(m.sender)}\n*Role*: ${role} \n\n`
 		  
 A17.sendMessage(m.chat, {text: teks, mentions:[m.sender]}, {quoted:m})
 }
@@ -5447,7 +5447,7 @@ const helpmenu = `Hemlo *${pushname}* Dear...!! ,
 │╰────────────────···▸
 ┠───═[ *BOT INFO* ]═──▸
 │╭────────────────···▸
-┴│▸ 
+┴│▸ 񙐪𝐆𝐑𝐎𝐔𝐏 :${groupMetadata.subject}
 ⬡│▸ *Bot usr name :* ${pushname} 
 ⬡│▸ *My prefix is :*  ${prefix}
 ⬡│▸ *Owner name :* ${global.OwnerName} 
