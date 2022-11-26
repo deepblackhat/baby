@@ -2576,12 +2576,13 @@ if (isBanChat) return reply(mess.bangc)
  if (!m.isGroup) return replay(mess.grouponly)
  if (!isAdmins && !isCreator) return replay(mess.useradmin)
  let teks = `╭━━━≺ 𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜×-𝗧𝗔𝗚 ≻━━━╮
-  
- 𝗚𝗿𝗼𝘂𝗽💕: *${groupMetadata.subject}*
-  
- 𝗔𝗡𝗡𝗢𝗨𝗡𝗖𝗘𝗥👻:  @${m.sender.split('@')[0]}
-
-*Message : ${args.join(" ") ? args.join(" ") : 'no message'}*\n\n`
+┃ 
+┃𝗚𝗿𝗼𝘂𝗽💕: *${groupMetadata.subject}*
+┃┄┄┄┄┄┄┄┄┄┄┄
+┃𝗔𝗡𝗡𝗢𝗨𝗡𝗖𝗘𝗥👻:  @${m.sender.split('@')[0]}
+┃┄┄┄┄┄┄┄┄┄┄┄
+┃*Message : ${args.join(" ") ? args.join(" ") : 'no message'}*\n\n`
+╭╼━━━━≺ 𝗠𝗘𝗠𝗕𝗘𝗥𝗦 ≻━━━╾╮
  for (let mem of participants) {
  teks += `💔 @${mem.id.split('@')[0]}\n`
  }
