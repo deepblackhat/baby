@@ -5275,6 +5275,124 @@ reply(`╭╼━᚜ 𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜× ᚛━╾╮
 ╰╼≺${global.BotName}≻`
 )}
 break
+case 'textpromenu' :{
+if (isBan) return reply(mess.banned)	 			
+if (isBanChat) return reply(mess.bangc)
+reply(`╭╼━᚜ 𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜× ᚛━╾╮
+│                                      ❒
+│ *My prefix*       : ( - )
+│ *My name*       : ${global.BotName}
+│ *User name*    : ${pushname}
+│ *Owner name* : ${global.OwnerName}
+│ *Owner no.*     : http://wa.me//${global.Owner}
+│ *Group name*  : ${groupMetadata.subject}
+│                                      ❒
+╰╼━━━━━━━━━━━━╾╯
+╭╼━᚜ 𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜× ᚛━╾╮
+
+❒🔥 ${prefix}candy
+❒🔥 ${prefix}christmas
+❒🔥 ${prefix}3Dchristmas
+❒🔥 ${prefix}sparklechristmas
+❒🔥 ${prefix}deepsea
+❒🔥 ${prefix}scifi
+❒🔥 ${prefix}rainbow
+❒🔥 ${prefix}waterpipe
+❒🔥 ${prefix}spooky
+❒🔥 ${prefix}pencil
+❒🔥 ${prefix}circuit
+❒🔥 ${prefix}discovery
+❒🔥 ${prefix}metalic
+❒🔥 ${prefix}fiction
+❒🔥 ${prefix}demon
+❒🔥 ${prefix}transformar
+❒🔥 ${prefix}berry
+❒🔥 ${prefix}thunder 
+❒🔥 ${prefix}Magma
+❒🔥 ${prefix}3Dstone
+❒🔥 ${prefix}neonlight
+❒🔥 ${prefix}glitch
+❒🔥 ${prefix}harrypotter
+❒🔥 ${prefix}broken glass
+❒🔥 ${prefix}papercut
+❒🔥 ${prefix}watercolour
+❒🔥 ${prefix}multicolour
+❒🔥 ${prefix}neondevil
+❒🔥 ${prefix}underwater
+❒🔥 ${prefix}graffitibike
+❒🔥 ${prefix}snow
+❒🔥 ${prefix}cloud
+❒🔥 ${prefix}honey
+❒🔥 ${prefix}ice
+❒🔥 ${prefix}fruitjuice
+❒🔥 ${prefix}biscuit 
+❒🔥 ${prefix}wood
+❒🔥 ${prefix}chocolate
+❒🔥 ${prefix}strawberry
+❒🔥 ${prefix}matrix
+❒🔥 ${prefix}blood
+❒🔥 ${prefix}dropwater
+❒🔥 ${prefix}toxic
+❒🔥 ${prefix}lava
+❒🔥 ${prefix}rock
+❒🔥 ${prefix}bloodglas
+❒🔥 ${prefix}hallowen
+❒🔥 ${prefix}darkgold
+❒🔥 ${prefix}joker
+❒🔥 ${prefix}wicker
+❒🔥 ${prefix}firework
+❒🔥 ${prefix}skeleton
+❒🔥 ${prefix}blackpink
+❒🔥 ${prefix}sand
+❒🔥 ${prefix}glue
+❒🔥 ${prefix}1917
+
+╰╼≺${global.BotName}≻`
+)}
+break
+case 'funmenu':{
+if (isBan) return reply(mess.banned)	 			
+if (isBanChat) return reply(mess.bangc)
+reply(`╭╼━᚜ 𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜× ᚛━╾╮
+│                                      ❒
+│ *My prefix*       : ( ${prefix} )
+│ *My name*       : ${global.BotName}
+│ *User name*    : ${pushname}
+│ *Owner name* : ${global.OwnerName}
+│ *Owner no.*     : http://wa.me//${global.Owner}
+│ *Group name*  : ${groupMetadata.subject}
+│                                      ❒
+╰╼━━━━━━━━━━━━╾╯
+╭╼━᚜ 𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜× ᚛━╾╮
+
+❒🔥 ${prefix}reaction
+❒🔥 ${prefix}truth
+❒🔥 ${prefix}dare
+❒🔥 ${prefix}couple
+❒🔥 ${prefix}soulmate
+❒🔥 ${prefix}handsomecheck
+❒🔥 ${prefix}beautifulcheck
+❒🔥 ${prefix}awesomecheck
+❒🔥 ${prefix}greatcheck
+❒🔥 ${prefix}gaycheck
+❒🔥 ${prefix}cutecheck
+❒🔥 ${prefix}lesbiancheck
+❒🔥 ${prefix}hornycheck
+❒🔥 ${prefix}prettycheck
+❒🔥 ${prefix}lovelycheck
+❒🔥 ${prefix}uglycheck
+❒🔥 ${prefix}charactercheck
+❒🔥 ${prefix}math
+❒🔥 ${prefix}checkdeath
+❒🔥 ${prefix}guess
+❒🔥 ${prefix}attp
+❒🔥 ${prefix}attp2
+❒🔥 ${prefix}ttp
+❒🔥 ${prefix}patrick
+
+╰╼≺${global.BotName}≻`
+)}
+break
 
 case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
     if (isBan) return reply(mess.banned)	 			
