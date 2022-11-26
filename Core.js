@@ -5295,7 +5295,8 @@ case '':
      
          let butRun = [
                 {buttonId: `-help`, buttonText: {displayText: 'Help'}, type: 1},
-		{buttonId: `-owner`, buttonText: {displayText: 'Help'}, type: 1},
+		{buttonId: `-owner`, buttonText: {displayText: 'owner'}, type: 1},
+                {buttonId: `-support`, buttonText: {displayText: 'support grup'}, type: 1},
                 ]
                 let buttonMessage = {
                     video:fs.readFileSync('./system/A17.mp4'),gifPlayback:true,
