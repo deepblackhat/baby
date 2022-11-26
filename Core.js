@@ -5358,6 +5358,7 @@ const helpmenu = `Hemlo *${pushname}* Dear...!! ,
  let buttonshelpm = [
     {buttonId: `-owner`, buttonText: {displayText: 'Bot Owner'}, type: 1},
     {buttonId: `-support`, buttonText: {displayText: 'grup'}, type: 1},
+    {buttonId: `-command`, buttonText: {displayText: 'list menu'}, type: 1},
     ]
                 let buttonMessage = {
                     video:fs.readFileSync('./system/A17_2.mp4'),gifPlayback:true,
