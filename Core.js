@@ -5119,6 +5119,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             A17.relayMessage(m.chat, template.message, { messageId: template.key.id })
             }
             break
+		
 case 'groupmenu' :{
 if (isBan) return reply(mess.banned)	 			
 if (isBanChat) return reply(mess.bangc)
@@ -5150,9 +5151,10 @@ if (isBanChat) return reply(mess.bangc)
 │❒✨ ${prefix}setdesc
 │❒✨ ${prefix}group  *(open/close)*
 │❒✨ ${prefix}antivirus
-│❒✨ ${prefix}antitoxic        
-│
-│╰──────────${global.BotName}───────────···
+│❒✨ ${prefix}antitoxic
+
+╰────────── ${global.BotName} ───────────`
+
 )}
 break
 
@@ -5208,7 +5210,7 @@ case 'animemenu' : {
 if (isBan) return reply(mess.banned)	 			
 if (isBanChat) return reply(mess.bangc)
 
-reply( ╭╼━᚜ 𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜× ᚛━╾╮
+reply(` ╭╼━᚜ 𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜× ᚛━╾╮
 │                                      ❒
 │ *My prefix*       : ( ${prefix} )
 │ *My name*       : ${global.BotName}
@@ -5244,7 +5246,7 @@ reply( ╭╼━᚜ 𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜× ᚛━╾╮
 ❒✨ ${prefix}anime
 ❒✨ ${prefix}manga
 
-╰────────── ${global.BotName} ───────────···
+╰──────────${global.BotName}──────────`
 
 )}
 break
@@ -5353,9 +5355,11 @@ reply(`╭╼━᚜ 𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜× ᚛━╾╮
 ❒✨ ${prefix}glue
 ❒✨ ${prefix}1917
 
-│╰──────────${global.BotName}───────────···
+│╰──────────${global.BotName}───────────···`
+      
 )}
 break
+		
 case 'funmenu':{
 if (isBan) return reply(mess.banned)	 			
 if (isBanChat) return reply(mess.bangc)
@@ -5434,7 +5438,7 @@ if (isBanChat) return reply(mess.bangc)
 ⬡│▸
 ⬡│▸
 ┬│▸
-│╰──────────${global.BotName}───────────···▸
+│╰──────────${global.BotName}─────────── 
 
 )}
 break
