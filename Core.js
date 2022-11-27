@@ -181,6 +181,7 @@ const messagesD = body.slice(0).trim().split(/ +/).shift().toLowerCase()
 const groupMetadata = m.isGroup ? await A17.groupMetadata(m.chat).catch(e => {}) : ''
 const groupName = m.isGroup ? groupMetadata.subject : ''
 const participants = m.isGroup ? await groupMetadata.participants : ''
+const groupDescription = m. isGroup ? groupMetadata.desc : ''
 const groupAdmins = m.isGroup ? await participants.filter(v => v.admin !== null).map(v => v.id) : ''
 const groupOwner = m.isGroup ? groupMetadata.owner : ''
 const isBotAdmins = m.isGroup ? groupAdmins.includes(botNumber) : false
