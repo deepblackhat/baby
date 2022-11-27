@@ -1905,7 +1905,7 @@ case 'description':{
             let buttons = [
 {buttonId: `${prefix}owner`, buttonText: {displayText: '𝘖𝘸𝘯𝘦𝘳 𝘰𝘧 𝘵𝘩𝘪𝘴 𝘴𝘦𝘹𝘺 𝘽𝙤𝙩😚'}, type: 1}
 ]
-                    await AnyaPika.sendButtonText(m.chat, buttons, jawab, footer, m)
+                    await A17.sendButtonText(m.chat, buttons, jawab, footer, m)
             }
             break
 
