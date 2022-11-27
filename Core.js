@@ -1896,7 +1896,7 @@ const key = {
 await A17.sendMessage(m.chat, { delete: key })
  }
  break
-
+const footer = `A17`
 case 'description':{
 	   if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
