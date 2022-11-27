@@ -148,17 +148,15 @@ A17.ev.on('group-participants.update', async (anu) => {
             
                 if (anu.action == 'add') {
                 let WAuserName = num
-                A17text = `•❅───✧welcome✧───❅•
-║Hello @${WAuserName.split("@")[0]},
+                A17text = `•❅───✧(🆆🅴🅻🅲🅾🅼🅴✧───❅•
+║🌚Hello @${WAuserName.split("@")[0]},
 ║
-║I am *A17 Bot*, Welcome to ${metadata.subject}.
+║🌞I am *A17 Bot*, Welcome to ${metadata.subject}.
 ║
-║Dakho or ek aagaya 🫵🏻
+║😁Dakho or ek aagaya 🫵🏻
 ║
-║
-║
-║
-║✧──────✧
+║baby Description pe click karke o read kr 
+║✧────────────✧ 
 `
 let buttons = [
 {buttonId: `-menu`, buttonText: {displayText: '𝘔𝘦𝘯𝘶 🍓'}, type: 1},
