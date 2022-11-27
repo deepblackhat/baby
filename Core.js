@@ -5134,24 +5134,25 @@ if (isBanChat) return reply(mess.bangc)
 ╰╼━━━━━━━━━━━━╾╯
 ╭╼━᚜ 𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜× ᚛━╾╮
 │
-│❒🔥 ${prefix}deletethis *(any msg)*
-│❒🔥 ${prefix}promote
-│❒🔥 ${prefix}demote
-│❒🔥 ${prefix}revoke
-│❒🔥 ${prefix}add
-│❒🔥 ${prefix}remove
-│❒🔥 ${prefix}tagall
-│❒🔥 ${prefix}hidetag
-│❒🔥 ${prefix}afk  *(type reason)*
-│❒🔥 ${prefix}grouplink
-│❒🔥 ${prefix}setgcpp
-│❒🔥 ${prefix}setname
-│❒🔥 ${prefix}setdesc
-│❒🔥 ${prefix}group  *(open/close)*
-│❒🔥 ${prefix}antivirus
-│❒🔥 ${prefix}antitoxic        
+│❒✨ ${prefix}deletethis *(any msg)*
+│❒✨ ${prefix}promote
+│❒✨ ${prefix}demote
+│❒✨ ${prefix}revoke
+│❒✨ ${prefix}add
+│❒✨ ${prefix}remove
+│❒✨ ${prefix}admin
+│❒✨ ${prefix}tagall
+│❒✨ ${prefix}hidetag
+│❒✨ ${prefix}afk  *(type reason)*
+│❒✨ ${prefix}grouplink
+│❒✨ ${prefix}setgcpp
+│❒✨ ${prefix}setname
+│❒✨ ${prefix}setdesc
+│❒✨ ${prefix}group  *(open/close)*
+│❒✨ ${prefix}antivirus
+│❒✨ ${prefix}antitoxic        
 │
-╰╼≺${global.BotName}≻`
+│╰──────────${global.BotName}───────────···
 )}
 break
 
@@ -5160,7 +5161,7 @@ case  'command' : {
     		if (isBanChat) return reply(mess.bangc)
 		let sections = []
 		let  nexusmenu = [`groupsetting`,`textpromenu`,`groupmenu`,`funmenu`,`downloadmenu`,`voicechangermenu`,`animemenu`]
-		let marin2 = [`groupsetting 𓆩😎𓆪 `,`𝐓𝐗𝐓-𝐈𝐌𝐆-𝐌𝐀𝐊𝐄𝐑 𝐌𝐄𝐍𝐔 𓆩🤯𓆪 `,`𝐎𝐍𝐋𝐘 𝐅𝐎𝐑 𝐆𝐑𝐎𝐔𝐏𝐀𝐃𝐌𝐈𝐍𝐒 𓆩🤖𓆪 `,`𝐅𝐎𝐑 𝐅𝐔𝐍 𓆩😁𓆪 `,`𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐌𝐄𝐍𝐔 𓆩😲𓆪 `,`𝐂𝐇𝐀𝐍𝐆𝐄 𝐕𝐎𝐈𝐂𝐄 𝐎𝐅 𝐀𝐍𝐘 𝐀𝐔𝐃𝐈𝐎 𓆩😌𓆪 `,`𝐀𝐍𝐈𝐌𝐄 𝐌𝐄𝐍𝐔 𓆩🥴𓆪 `]
+		let marin2 = [`groupsetting 😎 `,`𝐓𝐗𝐓-𝐈𝐌𝐆-𝐌𝐀𝐊𝐄𝐑 𝐌𝐄𝐍𝐔 🤯 `,`𝐎𝐍𝐋𝐘 𝐅𝐎𝐑 𝐆𝐑𝐎𝐔𝐏𝐀𝐃𝐌𝐈𝐍𝐒 🤖 `,`𝐅𝐎𝐑 𝐅𝐔𝐍 😁 `,`𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐌𝐄𝐍𝐔 😲`,`𝐂𝐇𝐀𝐍𝐆𝐄 𝐕𝐎𝐈𝐂𝐄 𝐎𝐅 𝐀𝐍𝐘 𝐀𝐔𝐃𝐈𝐎 😌 `,`𝐀𝐍𝐈𝐌𝐄 𝐌𝐄𝐍𝐔 🥴 `]
 		let ne = [` ONLY OWNER CAMMANDS`,`click TO GET TXT TO IMG MENU`,`TAP TO GET GROUPMENU`,`TAP TO GET FUNMENU`,`TAP TO GET DOWNLOADMENU`,`TAP TO GET VOICE CHANGER MENU`,`TAP TO GET ANIME MENU`]
 		let startnum = 0; let startnu = 0; let startn = 0;let start = 0
                     let startnumm = 1
@@ -5194,7 +5195,7 @@ case  'command' : {
 🦊 *Owner num.*  : http://wa.me//${global.PermanentOwnerNumber}
 🍓 *Group name*  : ${groupMetadata.subject}
 │                                                 ❒
-╰╼━━━━━━━━━━━━━━━━╾╯\n\n_Tap here for *full commands*_ 🐤👇\nㅤ`,
+╰╼━━━━━━━━━━━━━━━━╾╯\n\n_Tap here for *Full commands*_ 🐤👇\nㅤ`,
        buttonText: "Click Button",
        sections
       }, { quoted : m }
@@ -5217,31 +5218,31 @@ reply( `╭╼━᚜ 𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜× ᚛━╾╮
 ╰╼━━━━━━━━━━━━╾╯
 ╭╼━᚜ 𓆩🥰𓆪  𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜× 𓆩😈𓆪  ᚛━╾╮
 
-❒🔥 ${prefix}crosplay
-❒🔥 ${prefix}waifu
-❒🔥 ${prefix}loli
-❒🔥 ${prefix}neko
-❒🔥 ${prefix}ppcouple
-❒🔥 ${prefix}feed
-❒🔥 ${prefix}foxgirl
-❒🔥 ${prefix}feed
-❒🔥 ${prefix}meow
-❒🔥 ${prefix}tickle
-❒🔥 ${prefix}wallpaper
-❒🔥 ${prefix}coffee
-❒🔥 ${prefix}animenom
-❒🔥 ${prefix}waifu3
-❒🔥 ${prefix}neko2
-❒🔥 ${prefix}feed
-❒🔥 ${prefix}meow
-❒🔥 ${prefix}tickle
-❒🔥 ${prefix}migumin
-❒🔥 ${prefix}awoo
-❒🔥 ${prefix}animewallpaper2
-❒🔥 ${prefix}anime
-❒🔥 ${prefix}manga        
+❒✨ ${prefix}crosplay
+❒✨ ${prefix}waifu
+❒✨ ${prefix}loli
+❒✨ ${prefix}neko
+❒✨ ${prefix}ppcouple
+❒✨ ${prefix}feed
+❒✨ ${prefix}foxgirl
+❒✨ ${prefix}feed
+❒✨ ${prefix}meow
+❒✨ ${prefix}tickle
+❒✨ ${prefix}wallpaper
+❒✨ ${prefix}coffee
+❒✨ ${prefix}animenom
+❒✨ ${prefix}waifu3
+❒✨ ${prefix}neko2
+❒✨ ${prefix}feed
+❒✨ ${prefix}meow
+❒✨${prefix}tickle
+❒✨ ${prefix}migumin
+❒✨ ${prefix}awoo
+❒✨ ${prefix}animewallpaper2
+❒✨ ${prefix}anime
+❒✨ ${prefix}manga        
+│╰──────────${global.BotName}───────────···
 
-╰╼≺${global.BotName}≻`
 )}
 break	
 break	
@@ -5257,21 +5258,21 @@ reply(`╭╼━᚜ 𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜× ᚛━╾╮
 │ *Owner no.*     : http://wa.me//${global.pmo}
 │ *Group name*  : ${groupMetadata.subject}
 │                                      ❒
-╰╼━━━━━━━━━━━━╾╯
+│╰──────────${global.BotName}───────────···
 ╭╼━᚜ 𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜×   ᚛━╾╮
 
-❒🔥 ${prefix}bass
-❒🔥 ${prefix}tempo
-❒🔥 ${prefix}blown
-❒🔥 ${prefix}deep
-❒🔥 ${prefix}earrape
-❒🔥 ${prefix}fast
-❒🔥 ${prefix}fat
-❒🔥 ${prefix}nightcore
-❒🔥 ${prefix}reverse
-❒🔥 ${prefix}robot
-❒🔥 ${prefix}slow
-❒🔥 ${prefix}squirrel       
+❒✨ ${prefix}bass
+❒✨ ${prefix}tempo
+❒✨ ${prefix}blown
+❒✨ ${prefix}deep
+❒✨ ${prefix}earrape
+❒✨ ${prefix}fast
+❒✨ ${prefix}fat
+❒✨ ${prefix}nightcore
+❒✨ ${prefix}reverse
+❒✨ ${prefix}robot
+❒✨ ${prefix}slow
+❒✨ ${prefix}squirrel       
 
 ╰╼≺${global.BotName}≻`
 )}
@@ -5291,64 +5292,64 @@ reply(`╭╼━᚜ 𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜× ᚛━╾╮
 ╰╼━━━━━━━━━━━━╾╯
 ╭╼━᚜ 𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜× ᚛━╾╮
 
-❒🔥 ${prefix}candy
-❒🔥 ${prefix}christmas
-❒🔥 ${prefix}3Dchristmas
-❒🔥 ${prefix}sparklechristmas
-❒🔥 ${prefix}deepsea
-❒🔥 ${prefix}scifi
-❒🔥 ${prefix}rainbow
-❒🔥 ${prefix}waterpipe
-❒🔥 ${prefix}spooky
-❒🔥 ${prefix}pencil
-❒🔥 ${prefix}circuit
-❒🔥 ${prefix}discovery
-❒🔥 ${prefix}metalic
-❒🔥 ${prefix}fiction
-❒🔥 ${prefix}demon
-❒🔥 ${prefix}transformar
-❒🔥 ${prefix}berry
-❒🔥 ${prefix}thunder 
-❒🔥 ${prefix}Magma
-❒🔥 ${prefix}3Dstone
-❒🔥 ${prefix}neonlight
-❒🔥 ${prefix}glitch
-❒🔥 ${prefix}harrypotter
-❒🔥 ${prefix}broken glass
-❒🔥 ${prefix}papercut
-❒🔥 ${prefix}watercolour
-❒🔥 ${prefix}multicolour
-❒🔥 ${prefix}neondevil
-❒🔥 ${prefix}underwater
-❒🔥 ${prefix}graffitibike
-❒🔥 ${prefix}snow
-❒🔥 ${prefix}cloud
-❒🔥 ${prefix}honey
-❒🔥 ${prefix}ice
-❒🔥 ${prefix}fruitjuice
-❒🔥 ${prefix}biscuit 
-❒🔥 ${prefix}wood
-❒🔥 ${prefix}chocolate
-❒🔥 ${prefix}strawberry
-❒🔥 ${prefix}matrix
-❒🔥 ${prefix}blood
-❒🔥 ${prefix}dropwater
-❒🔥 ${prefix}toxic
-❒🔥 ${prefix}lava
-❒🔥 ${prefix}rock
-❒🔥 ${prefix}bloodglas
-❒🔥 ${prefix}hallowen
-❒🔥 ${prefix}darkgold
-❒🔥 ${prefix}joker
-❒🔥 ${prefix}wicker
-❒🔥 ${prefix}firework
-❒🔥 ${prefix}skeleton
-❒🔥 ${prefix}blackpink
-❒🔥 ${prefix}sand
-❒🔥 ${prefix}glue
-❒🔥 ${prefix}1917
+❒✨ ${prefix}candy
+❒✨ ${prefix}christmas
+❒✨ ${prefix}3Dchristmas
+❒✨ ${prefix}sparklechristmas
+❒✨ ${prefix}deepsea
+❒✨ ${prefix}scifi
+❒✨ ${prefix}rainbow
+❒✨ ${prefix}waterpipe
+❒✨${prefix}spooky
+❒✨ ${prefix}pencil
+❒✨ ${prefix}circuit
+❒✨ ${prefix}discovery
+❒✨ ${prefix}metalic
+❒✨ ${prefix}fiction
+❒✨ ${prefix}demon
+❒✨ ${prefix}transformar
+❒✨ ${prefix}berry
+❒✨ ${prefix}thunder 
+❒✨ ${prefix}Magma
+❒✨ ${prefix}3Dstone
+❒✨ ${prefix}neonlight
+❒✨ ${prefix}glitch
+❒✨ ${prefix}harrypotter
+❒✨ ${prefix}broken glass
+❒✨ ${prefix}papercut
+❒✨ ${prefix}watercolour
+❒✨ ${prefix}multicolour
+❒✨ ${prefix}neondevil
+❒✨ ${prefix}underwater
+❒✨ ${prefix}graffitibike
+❒✨${prefix}snow
+❒✨ ${prefix}cloud
+❒✨ ${prefix}honey
+❒✨ ${prefix}ice
+❒✨ ${prefix}fruitjuice
+❒✨ ${prefix}biscuit 
+❒✨ ${prefix}wood
+❒✨ ${prefix}chocolate
+❒✨ ${prefix}strawberry
+❒✨ ${prefix}matrix
+❒✨ ${prefix}blood
+❒✨ ${prefix}dropwater
+❒✨ ${prefix}toxic
+❒✨ ${prefix}lava
+❒✨ ${prefix}rock
+❒✨ ${prefix}bloodglas
+❒✨ ${prefix}hallowen
+❒✨ ${prefix}darkgold
+❒✨ ${prefix}joker
+❒✨ ${prefix}wicker
+❒✨ ${prefix}firework
+❒✨ ${prefix}skeleton
+❒✨ ${prefix}blackpink
+❒✨ ${prefix}sand
+❒✨ ${prefix}glue
+❒✨ ${prefix}1917
 
-╰╼≺${global.BotName}≻`
+│╰──────────${global.BotName}───────────···
 )}
 break
 case 'funmenu':{
@@ -5365,33 +5366,34 @@ reply(`╭╼━᚜ 𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜× ᚛━╾╮
 │                                      ❒
 ╰╼━━━━━━━━━━━━╾╯
 ╭╼━᚜ 𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜× ᚛━╾╮
+╭╼━᚜ 𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜× ᚛━╾╮
+│╭────────────────···▸
+┴│▸
+⬡│▸ ❒✨ ${prefix}reaction
+⬡│▸ ❒✨ ${prefix}truth
+⬡│▸ ❒✨ ${prefix}dare
+⬡│▸ ❒✨ ${prefix}couple
+⬡│▸ ❒✨ ${prefix}soulmate
+⬡│▸ ❒✨ ${prefix}handsomecheck
+⬡│▸ ❒✨ ${prefix}beautifulcheck
+⬡│▸ ❒✨ ${prefix}awesomecheck
+⬡│▸ ❒✨ ${prefix}greatcheck
+⬡│▸ ❒✨ ${prefix}gaycheck
+⬡│▸ ❒✨ ${prefix}cutecheck
+⬡│▸ ❒✨ ${prefix}attp
+⬡│▸ ❒✨ ${prefix}lesbiancheck
+⬡│▸ ❒✨ ${prefix}hornycheck
+⬡│▸ ❒✨ ${prefix}prettycheck
+⬡│▸ ❒✨  ${prefix}uglycheck
+⬡│▸ ❒✨ ${prefix}charactercheck
+⬡│▸ ❒✨ ${prefix}math
+⬡│▸ ❒✨ ${prefix}checkdeath
+⬡│▸ ❒✨ ${prefix}guess 
+⬡│▸
+⬡│▸
+┬│▸
+│╰──────────${global.BotName}───────────···
 
-❒🔥 ${prefix}reaction
-❒🔥 ${prefix}truth
-❒🔥 ${prefix}dare
-❒🔥 ${prefix}couple
-❒🔥 ${prefix}soulmate
-❒🔥 ${prefix}handsomecheck
-❒🔥 ${prefix}beautifulcheck
-❒🔥 ${prefix}awesomecheck
-❒🔥 ${prefix}greatcheck
-❒🔥 ${prefix}gaycheck
-❒🔥 ${prefix}cutecheck
-❒🔥 ${prefix}lesbiancheck
-❒🔥 ${prefix}hornycheck
-❒🔥 ${prefix}prettycheck
-❒🔥 ${prefix}lovelycheck
-❒🔥 ${prefix}uglycheck
-❒🔥 ${prefix}charactercheck
-❒🔥 ${prefix}math
-❒🔥 ${prefix}checkdeath
-❒🔥 ${prefix}guess
-❒🔥 ${prefix}attp
-❒🔥 ${prefix}attp2
-❒🔥 ${prefix}ttp
-❒🔥 ${prefix}patrick
-
-╰╼≺${global.BotName}≻`
 )}
 break
 case 'downloadmenu' : {
@@ -5408,23 +5410,28 @@ if (isBanChat) return reply(mess.bangc)
 │                                      ❒
 ╰╼━━━━━━━━━━━━╾╯
 ╭╼━᚜ 𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜× ᚛━╾╮
+│╭────────────────···▸
+┴│▸
+⬡│▸ ❒✨ ${prefix}play
+⬡│▸ ❒✨ ${prefix}ytmp3
+⬡│▸ ❒✨ ${prefix}ytvideo
+⬡│▸ ❒✨ ${prefix}instagram
+⬡│▸ ❒✨ ${prefix}igtv
+⬡│▸ ❒✨ ${prefix}facebook
+⬡│▸ ❒✨ ${prefix}fbmp3
+⬡│▸ ❒✨ ${prefix}fbmp3
+⬡│▸ ❒✨ ${prefix}twitter
+⬡│▸ ❒✨ ${prefix}twittermp3
+⬡│▸ ❒✨ ${prefix}tiktok
+⬡│▸ ❒✨ ${prefix}tiktokaudio
+⬡│▸ ❒✨ ${prefix}tiktoknowm
+⬡│▸ ❒✨ ${prefix}mediafire 
+⬡│▸ ❒✨ ${prefix}mediafire 
+⬡│▸
+⬡│▸
+┬│▸
+│╰──────────${global.BotName}───────────···▸
 
-❒🔥 ${prefix}play
-❒🔥 ${prefix}ytmp3
-❒🔥 ${prefix}ytmp4
-❒🔥 ${prefix}ytvideo
-❒🔥 ${prefix}instagram
-❒🔥 ${prefix}igtv
-❒🔥 ${prefix}facebook
-❒🔥 ${prefix}fbmp3
-❒🔥 ${prefix}twitter
-❒🔥 ${prefix}twittermp3
-❒🔥 ${prefix}tiktok
-❒🔥 ${prefix}tiktokaudio
-❒🔥 ${prefix}tiktoknowm
-❒🔥 ${prefix}mediafire        
-
-╰╼≺${global.BotName}≻`
 )}
 break
 
@@ -5436,7 +5443,7 @@ const helpmenu = `Hemlo *${pushname}* Dear...!! ,
 
 │───────────────────│
 ││▸ I am *A17*, 
-││▸ 񙐪𝐆𝐑𝐎𝐔𝐏 :${groupMetadata.subject}
+││▸ Group :${groupMetadata.subject}
 │───────────────────│
 │╭────────────────···▸
 ┠─────═[ *TODAY* ]═────
@@ -5454,6 +5461,7 @@ const helpmenu = `Hemlo *${pushname}* Dear...!! ,
 ⬡│▸ *Owner name :* ${global.OwnerName} 
 ⬡│▸ *Bot speed :* ${latensie.toFixed(4)} ms 
 ⬡│▸ *Bot runtime :* ${runtime(process.uptime())} 
+⬡│▸ *Bot user :* ${Object.keys(global.db.users).length}
 ⬡│▸ *Platform :* Linux 
 ┬│▸
 │╰────────────────···▸
@@ -5552,6 +5560,34 @@ const helpmenu = `Hemlo *${pushname}* Dear...!! ,
 ⬡│▸ tiktoknowm, mediafire  
 ┬│▸
 ╰────────────────···▸
+┠━━〈 ⚒️ *IMG-TXT-MAKER* ⚒️ 〉━━
+│╭───────────────···▸
+┴│▸ 
+⬡│▸ candy, christmas, wood
+⬡│▸ Dchristmas, neondevil
+⬡│▸ sparklechristmas, ice 
+⬡│▸ scifi, deepsea, neondevil
+⬡│▸ waterpipe, rainbow
+⬡│▸ pencil, spooky, spooky
+⬡│▸ discovery, metalic
+⬡│▸ fiction, demon, snow
+⬡│▸ transformar, berry
+⬡│▸ Magma, thunder, fruitjuice
+⬡│▸ 3Dstone, neonlight
+⬡│▸ harrypotter, glitch
+⬡│▸ broken, glass, papercut
+⬡│▸ watercolour, multicolour
+⬡│▸ underwater, lava, rock
+⬡│▸ joker, wicker, firework
+⬡│▸ graffitibike, chocolate
+⬡│▸ bloodglas, dropwater
+⬡│▸ strawberry, matrix
+⬡│▸ skeleton, blackpink
+⬡│▸ sand, glue, 1917
+⬡│▸ blood, hallowe, toxic
+⬡│▸ neondevil, cloud, honey
+┬│▸
+╰────────────────···▸
 ┠━━〈 🎐 *Fun* 🎐 〉━━
 │╭───────────────···▸
 ┴│▸
@@ -5618,9 +5654,9 @@ const helpmenu = `Hemlo *${pushname}* Dear...!! ,
     
 
  let buttonshelpm = [
-    {buttonId: `-owner`, buttonText: {displayText: 'Bot Owner'}, type: 1},
-    {buttonId: `-support`, buttonText: {displayText: 'grup'}, type: 1},
-    {buttonId: `-command`, buttonText: {displayText: 'list menu'}, type: 1},
+    {buttonId: `-owner`, buttonText: {displayText: '✨ Bot Owner ✨'}, type: 1},
+    {buttonId: `-support`, buttonText: {displayText: '🍁 Group 🍁'}, type: 1},
+    {buttonId: `-command`, buttonText: {displayText: '🔥 List Menu 🔥'}, type: 1},
     ]
                 let buttonMessage = {
                     video:fs.readFileSync('./system/A17_2.mp4'),gifPlayback:true,
@@ -5647,8 +5683,8 @@ case '':
      
          let butRun = [
                 {buttonId: `-help`, buttonText: {displayText: 'Help'}, type: 1},
-		{buttonId: `-owner`, buttonText: {displayText: 'owner'}, type: 1},
-                {buttonId: `-support`, buttonText: {displayText: 'support grup'}, type: 1},
+		{buttonId: `-owner`, buttonText: {displayText: '✨ owner ✨'}, type: 1},
+                {buttonId: `-support`, buttonText: {displayText: '🔥Support Group 🔥'}, type: 1},
                 ]
                 let buttonMessage = {
                     video:fs.readFileSync('./system/A17.mp4'),gifPlayback:true,
