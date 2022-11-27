@@ -1897,7 +1897,17 @@ await A17.sendMessage(m.chat, { delete: key })
  }
  break
 
-
+case '': {
+	   if (isBan) return reply(mess.ban)
+	if (isBanChat) return reply(mess.banChat)
+            if (!m.isGroup) return replay(`${mess.group}`)
+            let jawab = `ㅤ ㅤ࿙⳼ 𝗗𝗘𝗦𝗖𝗥𝗜𝗣𝗧𝗜𝗢𝗡 ⳹࿚\n\n─────────────────────\n\n${groupMetadata.desc}\n\n─────────────────────\n\n_${pushname}_ 𝘩𝘦𝘳𝘦'𝘴 𝘰𝘶𝘳 𝘨𝘳𝘰𝘶𝘱 𝘥𝘦𝘴𝘤𝘳𝘪𝘱𝘵𝘪𝘰𝘯 𝘣𝘢𝘣𝘺❤`
+            let buttons = [
+{buttonId: `${prefix}owner`, buttonText: {displayText: '𝘖𝘸𝘯𝘦𝘳 𝘰𝘧 𝘵𝘩𝘪𝘴 𝘴𝘦𝘹𝘺 𝘽𝙤𝙩😚'}, type: 1}
+]
+                    await AnyaPika.sendButtonText(m.chat, buttons, jawab, footer, m)
+            }
+            break
 
  case 'listpc': {
     if (isBan) return reply(mess.banned)	 			
