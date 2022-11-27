@@ -3459,6 +3459,7 @@ A17.sendMessage(from, buttonMessage, {quoted:m})
 }
 break
 
+
 case 'tiktoknowm': case 'ttnowm':{
     if (isBan) return reply(mess.banned)
   if (isBanChat) return reply(mess.bangc)
@@ -4758,7 +4759,14 @@ let srh = await manga.searchManga(q)
 A17.sendMessage(m.chat,{image:{url:srh.data[0].images.jpg.large_image_url},caption:mang},{quoted:m})   
 break
 
-
+case 'getdescgc':
+case 'getdesc':
+              
+if (!isGroup) return reply(mess.only.group)
+anugetdescgc = from
+ metadete = await DogeXeonOP.groupMetadata(anugetdescgc)
+A17.sendMessage(from, metadete.desc, text, {quoted:mek})
+  break
 
 case 'waifu' :
     if (isBan) return reply(mess.banned)	 			
