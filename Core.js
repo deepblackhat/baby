@@ -1897,7 +1897,7 @@ await A17.sendMessage(m.chat, { delete: key })
  }
  break
 
-case '': {
+case 'description':{
 	   if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
             if (!m.isGroup) return replay(`${mess.group}`)
