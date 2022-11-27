@@ -148,7 +148,7 @@ A17.ev.on('group-participants.update', async (anu) => {
             
                 if (anu.action == 'add') {
                 let WAuserName = num
-                A17text = `•❅───✧(🆆🅴🅻🅲🅾🅼🅴✧───❅•
+                A17text = `✧─🆆🅴🅻🅲🅾🅼🅴─✧
 ║🌚Hello @${WAuserName.split("@")[0]},
 ║
 ║🌞I am *A17 Bot*, Welcome to ${metadata.subject}.
@@ -177,12 +177,22 @@ A17.sendMessage(anu.id, buttonMessage)
                     A17text = `
 Okay Bye 👋, @${WAuserName.split("@")[0]},
 
-I hope you will come back soon, but You will be missed!
+Na kisi ka ab aankhen dekhengi koi sapna,
+
+Na kisi harjai ko hum kahenge ab apna.
+
+Kya apna kya begaana
+
+Sab ko humne pehchana
+
+Ja bewafa ja humein pyar nahi karna
+
+Ja bewafa ja humein pyar nahi karna,!
 `
 let buttons = [
 {buttonId: `-menu`, buttonText: {displayText: '𝘔𝘦𝘯𝘶 🍓'}, type: 1},
-{buttonId: `-description`, buttonText: {displayText: '𝘎𝘳𝘰𝘶𝘱 𝘥𝘦𝘴𝘤𝘳𝘪𝘱𝘵𝘪𝘰𝘯 🧾'}, type: 1},
-{buttonId: `-remove-me`, buttonText: {displayText: '𝘗𝘭𝘦𝘢𝘴𝘦 𝘳𝘦𝘮𝘰𝘷𝘦 𝘮𝘦 🥺'}, type: 1}
+{buttonId: `-repo`, buttonText: {displayText: '🔥script🔥'}, type: 1},
+{buttonId: `-remove-me`, buttonText: {displayText: '😌*Nikal*😌'}, type: 1}
 ]
     let buttonMessage = {
 	image:await getBuffer(ppuser),
