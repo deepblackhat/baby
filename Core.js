@@ -5203,10 +5203,12 @@ case  'command' : {
 }
   
 break
+
 case 'animemenu' : {
 if (isBan) return reply(mess.banned)	 			
 if (isBanChat) return reply(mess.bangc)
-reply( `╭╼━᚜ 𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜× ᚛━╾╮
+
+reply( ╭╼━᚜ 𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜× ᚛━╾╮
 │                                      ❒
 │ *My prefix*       : ( ${prefix} )
 │ *My name*       : ${global.BotName}
@@ -5235,17 +5237,18 @@ reply( `╭╼━᚜ 𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜× ᚛━╾╮
 ❒✨ ${prefix}neko2
 ❒✨ ${prefix}feed
 ❒✨ ${prefix}meow
-❒✨${prefix}tickle
+❒✨ ${prefix}tickle
 ❒✨ ${prefix}migumin
 ❒✨ ${prefix}awoo
 ❒✨ ${prefix}animewallpaper2
 ❒✨ ${prefix}anime
-❒✨ ${prefix}manga        
-│╰──────────${global.BotName}───────────···
+❒✨ ${prefix}manga
+
+╰────────── ${global.BotName} ───────────···
 
 )}
-break	
-break	
+break
+
 case 'voicechangermenu' : {
 if (isBan) return reply(mess.banned)	 			
 if (isBanChat) return reply(mess.bangc)
@@ -5277,6 +5280,7 @@ reply(`╭╼━᚜ 𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜× ᚛━╾╮
 ╰╼≺${global.BotName}≻`
 )}
 break
+
 case 'textpromenu' :{
 if (isBan) return reply(mess.banned)	 			
 if (isBanChat) return reply(mess.bangc)
@@ -5300,7 +5304,7 @@ reply(`╭╼━᚜ 𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜× ᚛━╾╮
 ❒✨ ${prefix}scifi
 ❒✨ ${prefix}rainbow
 ❒✨ ${prefix}waterpipe
-❒✨${prefix}spooky
+❒✨ ${prefix}spooky
 ❒✨ ${prefix}pencil
 ❒✨ ${prefix}circuit
 ❒✨ ${prefix}discovery
@@ -5322,7 +5326,7 @@ reply(`╭╼━᚜ 𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜× ᚛━╾╮
 ❒✨ ${prefix}neondevil
 ❒✨ ${prefix}underwater
 ❒✨ ${prefix}graffitibike
-❒✨${prefix}snow
+❒✨ ${prefix}snow
 ❒✨ ${prefix}cloud
 ❒✨ ${prefix}honey
 ❒✨ ${prefix}ice
@@ -5365,7 +5369,7 @@ reply(`╭╼━᚜ 𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜× ᚛━╾╮
 │ *Group name*  : ${groupMetadata.subject}
 │                                      ❒
 ╰╼━━━━━━━━━━━━╾╯
-╭╼━᚜ 𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜× ᚛━╾╮
+
 ╭╼━᚜ 𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜× ᚛━╾╮
 │╭────────────────···▸
 ┴│▸
@@ -5461,7 +5465,7 @@ const helpmenu = `Hemlo *${pushname}* Dear...!! ,
 ⬡│▸ *Owner name :* ${global.OwnerName} 
 ⬡│▸ *Bot speed :* ${latensie.toFixed(4)} ms 
 ⬡│▸ *Bot runtime :* ${runtime(process.uptime())} 
-⬡│▸ *Bot user :* ${Object.keys(global.db.users).length}
+⬡│▸ *Total Bot user :* ${Object.keys(global.db.users).length}
 ⬡│▸ *Platform :* Linux 
 ┬│▸
 │╰────────────────···▸
