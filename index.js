@@ -153,10 +153,10 @@ A17.ev.on('group-participants.update', async (anu) => {
 ║
 ║I am *A17 Bot*, Welcome to ${metadata.subject}.
 ║
-║Dakho or kr aagaya 🫵🏻
-║𝗝𝗼𝗶𝗻𝗲𝗱 : 
+║Dakho or ek aagaya 🫵🏻
 ║
-║ ${xtime} ${xdate}
+║
+║
 ║
 ║✧──────✧
 `
