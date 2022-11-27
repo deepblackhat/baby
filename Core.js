@@ -4764,7 +4764,7 @@ case 'getdesc':
               
 if (!isGroup) return reply(mess.only.group)
 anugetdescgc = from
- metadete = await DogeXeonOP.groupMetadata(anugetdescgc)
+ metadete = await A17.groupMetadata(anugetdescgc)
 A17.sendMessage(from, metadete.desc, text, {quoted:mek})
   break
 
