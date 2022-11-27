@@ -4980,7 +4980,7 @@ A17.send5ButImg(yoi, txt, `${global.BotName}`, BotLogo, btn, Thumb)
 replay('Broadcast Sent !')
 }
 break   
-case 'marin':{
+case 'marin': case 'lala': {
 if (isBan) return reply(mess.banned)
 if (isBanChat) return reply(mess.bangc)
 let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
@@ -5003,19 +5003,20 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
                     footerText: `${global.BotName}`,
                     listType: "SINGLE_SELECT",
                     sections: [{
-								"title": "Main features of the Bot ❣️",
-								"rows": [
-									{
-										"title": "ᵃⁿʸᵃ⃟❤️ 𝗔𝗹𝗹 𝗺𝗲𝗻𝘂 𝗹𝗶𝘀𝘁",
-										"description": "Display the list of all features",
-										"rowId": `${prefix}allmenu`
-									}
-								]
-							},
-							{
-								"title": "Bot Features ❤️",
-								"rows": [
-									{
+							
+			    "title": "Main features of the Bot ❣️",
+			    "rows": [
+			{
+			"title": "ᵃⁿʸᵃ⃟❤️ 𝗔𝗹𝗹 𝗺𝗲𝗻𝘂 𝗹𝗶𝘀𝘁",
+			"description": "Display the list of all features",
+			"rowId": `${prefix}allmenu`
+		}
+		]
+		    },
+		{
+		"title": "Bot Features ❤️",
+		"rows": [
+			{
 										"title": "🐦 𝗚𝗿𝗼𝘂𝗽 𝗺𝗲𝗻𝘂",
 										"description": "Display the list of group features",
 										"rowId": `${prefix}groupmenu`
@@ -5118,6 +5119,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             }), {})
             A17.relayMessage(m.chat, template.message, { messageId: template.key.id })
             }
+		
             break
 		
 case 'groupmenu' :{
