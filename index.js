@@ -159,9 +159,9 @@ A17.ev.on('group-participants.update', async (anu) => {
 ║✧────────────✧ 
 `
 let buttons = [
-{buttonId: `-menu`, buttonText: {displayText: '𝘔𝘦𝘯𝘶 🍓'}, type: 1},
-{buttonId: `-description`, buttonText: {displayText: '𝘎𝘳𝘰𝘶𝘱 𝘥𝘦𝘴𝘤𝘳𝘪𝘱𝘵𝘪𝘰𝘯 🧾'}, type: 1},
-{buttonId: `-owner`, buttonText: {displayText: '🔥owner🔥'}, type: 1}
+{buttonId: `.menu`, buttonText: {displayText: '𝘔𝘦𝘯𝘶 🍓'}, type: 1},
+{buttonId: `.description`, buttonText: {displayText: '𝘎𝘳𝘰𝘶𝘱 𝘥𝘦𝘴𝘤𝘳𝘪𝘱𝘵𝘪𝘰𝘯 🧾'}, type: 1},
+{buttonId: `.owner`, buttonText: {displayText: '🔥owner🔥'}, type: 1}
 ]
     let buttonMessage = {
     image: await getBuffer(ppgroup),
@@ -190,9 +190,9 @@ Ja bewafa ja humein pyar nahi karna
 Ja bewafa ja humein pyar nahi karna,!
 `
 let buttons = [
-{buttonId: `-menu`, buttonText: {displayText: '𝘔𝘦𝘯𝘶 🍓'}, type: 1},
-{buttonId: `-repo`, buttonText: {displayText: '🔥script🔥'}, type: 1},
-{buttonId: `-remove-me`, buttonText: {displayText: '😌*Nikal*😌'}, type: 1}
+{buttonId: `.menu`, buttonText: {displayText: '𝘔𝘦𝘯𝘶 🍓'}, type: 1},
+{buttonId: `.repo`, buttonText: {displayText: '🔥script🔥'}, type: 1},
+{buttonId: `.remove-me`, buttonText: {displayText: '😌*Nikal*😌'}, type: 1}
 ]
     let buttonMessage = {
 	image:await getBuffer(ppuser),
