@@ -2088,8 +2088,8 @@ case 'description':{
  replay('Deactivated _Antilink_ in this group!')
  } else {
    let buttonsntilink = [
-   { buttonId: `-antilinkgc on`, buttonText: { displayText: 'On' }, type: 1 },
-   { buttonId: `-antilinkgc off`, buttonText: { displayText: 'Off' }, type: 1 }
+   { buttonId: `.antilinkgc on`, buttonText: { displayText: 'On' }, type: 1 },
+   { buttonId: `.antilinkgc off`, buttonText: { displayText: 'Off' }, type: 1 }
    ]
    await A17.sendButtonText(m.chat, buttonsntilink, `Please click the button below On / Off`, `${global.BotName}`, m)
    }
@@ -2121,8 +2121,8 @@ case 'description':{
  replay('Deactivated youtube video antilink !')
  } else {
    let buttonsntilink = [
-   { buttonId: `-antilinkyoutubevideo on`, buttonText: { displayText: 'On' }, type: 1 },
-   { buttonId: `-antilinkyoutubevideo off`, buttonText: { displayText: 'Off' }, type: 1 }
+   { buttonId: `.antilinkyoutubevideo on`, buttonText: { displayText: 'On' }, type: 1 },
+   { buttonId: `.antilinkyoutubevideo off`, buttonText: { displayText: 'Off' }, type: 1 }
    ]
    await A17.sendButtonText(m.chat, buttonsntilink, `Please click the button below On / Off`, `${global.BotName}`, m)
    }
@@ -2155,8 +2155,8 @@ case 'description':{
  replay('Deactivated youtube channel antilink !')
  } else {
    let buttonsntilink = [
-   { buttonId: `-antilinkyoutubech on`, buttonText: { displayText: 'On' }, type: 1 },
-   { buttonId: `-antilinkyoutubech off`, buttonText: { displayText: 'Off' }, type: 1 }
+   { buttonId: `.antilinkyoutubech on`, buttonText: { displayText: 'On' }, type: 1 },
+   { buttonId: `.antilinkyoutubech off`, buttonText: { displayText: 'Off' }, type: 1 }
    ]
    await A17.sendButtonText(m.chat, buttonsntilink, `Please click the button below On / Off`, `${global.BotName}`, m)
    }
@@ -2188,8 +2188,8 @@ case 'description':{
  replay('Deactivated instagram antilink !')
  } else {
    let buttonsntilink = [
-   { buttonId: `-antilinkinstagram on`, buttonText: { displayText: 'On' }, type: 1 },
-   { buttonId: `-antilinkinstagram off`, buttonText: { displayText: 'Off' }, type: 1 }
+   { buttonId: `.antilinkinstagram on`, buttonText: { displayText: 'On' }, type: 1 },
+   { buttonId: `.antilinkinstagram off`, buttonText: { displayText: 'Off' }, type: 1 }
    ]
    await A17.sendButtonText(m.chat, buttonsntilink, `Please click the button below On / Off`, `${global.BotName}`, m)
    }
@@ -2220,8 +2220,8 @@ case 'description':{
  replay('Deactivated facebook antilink !')
  } else {
    let buttonsntilink = [
-   { buttonId: `-antilinkfacebook on`, buttonText: { displayText: 'On' }, type: 1 },
-   { buttonId: `-antilinkfacebook off`, buttonText: { displayText: 'Off' }, type: 1 }
+   { buttonId: `.antilinkfacebook on`, buttonText: { displayText: 'On' }, type: 1 },
+   { buttonId: `.antilinkfacebook off`, buttonText: { displayText: 'Off' }, type: 1 }
    ]
    await A17.sendButtonText(m.chat, buttonsntilink, `Please click the button below On / Off `, `${global.BotName}`, m)
    }
@@ -2253,8 +2253,8 @@ case 'description':{
  replay('Deactivated telegram antilink in this group')
  } else {
    let buttonsntilink = [
-   { buttonId: `-antilinktelegram on`, buttonText: { displayText: 'On' }, type: 1 },
-   { buttonId: `-antilinktelegram off`, buttonText: { displayText: 'Off' }, type: 1 }
+   { buttonId: `.antilinktelegram on`, buttonText: { displayText: 'On' }, type: 1 },
+   { buttonId: `.antilinktelegram off`, buttonText: { displayText: 'Off' }, type: 1 }
    ]
    await A17.sendButtonText(m.chat, buttonsntilink, `Please click the button below On / Off `, `${global.BotName}`, m)
    }
@@ -2286,8 +2286,8 @@ case 'description':{
  replay('Deactivated tiktok antilink !')
  } else {
    let buttonsntilink = [
-   { buttonId: `-antilinktiktok on`, buttonText: { displayText: 'On' }, type: 1 },
-   { buttonId: `-antilinktiktok off`, buttonText: { displayText: 'Off' }, type: 1 }
+   { buttonId: `.antilinktiktok on`, buttonText: { displayText: 'On' }, type: 1 },
+   { buttonId: `.antilinktiktok off`, buttonText: { displayText: 'Off' }, type: 1 }
    ]
    await A17.sendButtonText(m.chat, buttonsntilink, `Please click the button below\n\nOn to enable\nOff to disable`, `${global.BotName}`, m)
    }
@@ -2318,8 +2318,8 @@ case 'description':{
  replay('Deactivated twitter antilink !')
  } else {
    let buttonsntilink = [
-   { buttonId: `-antilinktwt on`, buttonText: { displayText: 'On' }, type: 1 },
-   { buttonId: `-antilinktwt off`, buttonText: { displayText: 'Off' }, type: 1 }
+   { buttonId: `.antilinktwt on`, buttonText: { displayText: 'On' }, type: 1 },
+   { buttonId: `.antilinktwt off`, buttonText: { displayText: 'Off' }, type: 1 }
    ]
    await A17.sendButtonText(m.chat, buttonsntilink, `Please click the button below\n\nOn to enable\nOff to disable`, `${global.BotName}`, m)
    }
@@ -2351,8 +2351,8 @@ case 'description':{
  replay('Disabled all antilink !')
  } else {
    let buttonsntilink = [
-   { buttonId: `-antilinkall on`, buttonText: { displayText: 'On' }, type: 1 },
-   { buttonId: `-antilinkall off`, buttonText: { displayText: 'Off' }, type: 1 }
+   { buttonId: `.antilinkall on`, buttonText: { displayText: 'On' }, type: 1 },
+   { buttonId: `.antilinkall off`, buttonText: { displayText: 'Off' }, type: 1 }
    ]
    await A17.sendButtonText(m.chat, buttonsntilink, `Please click the button below\n\nOn to enable\nOff to disable`, `${global.BotName}`, m)
    }
@@ -2384,8 +2384,9 @@ case 'description':{
  replay('Deactivated antiwame !')
  } else {
    let buttonsntwame = [
-   { buttonId: `-antiwame on`, buttonText: { displayText: 'On' }, type: 1 },
-   { buttonId: `-antiwame off`, buttonText: { displayText: 'Off' }, type: 1 }
+   { buttonId: `.antiwame on`,buttonText: { displayText: 'On' }, type: 1 },
+
+   { buttonId: `.antiwame off`, buttonText: { displayText: 'Off' }, type: 1 }
    ]
    await A17.sendButtonText(m.chat, buttonsntwame, `Please click the button below\n\nOn to enable\nOff to disable`, `${global.BotName}`, m)
    }
@@ -2417,8 +2418,8 @@ case 'description':{
  replay('Disabled NSFW Commands!')
  } else {
    let buttonsntnsfw = [
-   { buttonId: `-nsfw on`, buttonText: { displayText: 'On' }, type: 1 },
-   { buttonId: `-nsfw off`, buttonText: { displayText: 'Off' }, type: 1 }
+   { buttonId: `.nsfw on`, buttonText: { displayText: 'On' }, type: 1 },
+   { buttonId: `.nsfw off`, buttonText: { displayText: 'Off' }, type: 1 }
    ]
    await A17.sendButtonText(m.chat, buttonsntnsfw, `Please click the button below\n\nOn to enable\nOff to disable`, `${global.BotName}`, m)
    }
@@ -3321,8 +3322,8 @@ Size : ${lotwit.medias[1].formattedSize}
 Link : ${lotwit.medias[1].url}
 _Please choose the video quality_`
 let buttons = [
-{buttonId: `-twitter ${lotwit.medias[0].url}`, buttonText: {displayText: `Quality ${lotwit.medias[0].quality}`}, type: 1},
-{buttonId: `-twitter ${lotwit.medias[2].url}`, buttonText: {displayText: `Quality ${lotwit.medias[2].quality}`}, type: 1}
+{buttonId: `.twitter ${lotwit.medias[0].url}`, buttonText: {displayText: `Quality ${lotwit.medias[0].quality}`}, type: 1},
+{buttonId: `.twitter ${lotwit.medias[2].url}`, buttonText: {displayText: `Quality ${lotwit.medias[2].quality}`}, type: 1}
 ]
 let buttonMessage = {
 video: {url:lotwit.medias[1].url},
@@ -3343,7 +3344,7 @@ case 'twddlxx': {
     if (isBan) return reply(mess.banned)	 			
  if (isBanChat) return reply(mess.bangc)
  let buttons = [
- {buttonId: `-menu`, buttonText: {displayText: '✨Menu✨'}, type: 1}
+ {buttonId: `.menu`, buttonText: {displayText: '✨Menu✨'}, type: 1}
  ]
  let buttonMessage = {
  video: {url:args[0]},
@@ -3407,7 +3408,7 @@ Quality : ${resd.medias[0].quality}
 Size : ${resd.medias[0].formattedSize}
 _Click the button below to download_`
 let buttons = [
-{buttonId: `-fbdl ${resd.medias[1].url}`, buttonText: {displayText: 'QualityHD'}, type: 1}
+{buttonId: `.fbdl ${resd.medias[1].url}`, buttonText: {displayText: 'QualityHD'}, type: 1}
 ]
 let buttonMessage = {
 video: {url:resd.medias[0].url},
@@ -3428,7 +3429,8 @@ case 'fbddlxx': {
     if (isBan) return reply(mess.banned)	 			
  if (isBanChat) return reply(mess.bangc)
  let buttons = [
- {buttonId: `-menu`, buttonText: {displayText: '✨Menu✨'}, type: 1}
+ {buttonId: `.menu`, buttonText: {displayText: '✨Menu✨'}, type: 1}
+
  ]
  let buttonMessage = {
  video: {url:args[0]},
@@ -3455,8 +3457,8 @@ reply(mess.error)
  const A17tiktokop = musim_rambutan.result.watermark
 texttk = `_Please choose the button below_`
 let buttons = [
-{buttonId: `-ttnowm ${q}`, buttonText: {displayText: 'Watermark Free'}, type: 1},
-{buttonId: `-ttaud ${q}`, buttonText: {displayText: 'Audio '}, type: 1}
+{buttonId: `.ttnowm ${q}`, buttonText: {displayText: 'Watermark Free'}, type: 1},
+{buttonId: `.ttaud ${q}`, buttonText: {displayText: 'Audio '}, type: 1}
 ]
 let buttonMessage = {
 video: {url:A17tiktokop},
@@ -3517,13 +3519,13 @@ case 'music': case 'p': case 'play': case 'song': case 'ytplay': {
  let search = await yts(text)
  let anu = search.videos[0]
  let buttons = [
- {buttonId: `-ytad ${text}`, buttonText: {displayText: '♫ Audio'}, type: 1},
- {buttonId: `-ytvd ${text}`, buttonText: {displayText: '► Video'}, type: 1}
+ {buttonId: `.ytad ${text}`, buttonText: {displayText: '♫ Audio'}, type: 1},
+ {buttonId: `.ytvd ${text}`, buttonText: {displayText: '► Video'}, type: 1}
 
  ]
  let buttonMessage = {
  image: { url: anu.thumbnail },
- caption: `「  _A17 Youtube Player 2.0_  」
+ caption: `「  _Youtube Player 2.0_  」
 
 *Title :* ${anu.title}
 
@@ -3579,13 +3581,13 @@ case 'music': case 'p': case 'play': case 'song': case 'ytplay': {
  let search = await yts(text)
  let anu = search.videos[0]
  let buttons = [
- {buttonId: `-ytad2 ${text}`, buttonText: {displayText: '♫ Audio'}, type: 1},
- {buttonId: `-ytvd2 ${text}`, buttonText: {displayText: '► Video'}, type: 1}
+ {buttonId: `.ytad2 ${text}`, buttonText: {displayText: '♫ Audio'}, type: 1},
+ {buttonId: `.ytvd2 ${text}`, buttonText: {displayText: '► Video'}, type: 1}
 
  ]
  let buttonMessage = {
  image: { url: anu.thumbnail },
- caption: `「  A17 Youtube Downloader 2.0  」
+ caption: `「   Youtube Downloader 2.0  」
 
 *Title :* ${anu.title}
 
@@ -4146,7 +4148,7 @@ case 'trap' :
 reply(mess.waiting)
  waifudd = await axios.get(`https://waifu.pics/api/nsfw/${command}`)       
  let trapbot = [
-    {buttonId: `-trap`, buttonText: {displayText: `>>`}, type: 1},
+    {buttonId: `.trap`, buttonText: {displayText: `>>`}, type: 1},
     ]
   let button2Messages = {
    image: {url:waifudd.data.url},
@@ -4190,7 +4192,7 @@ case 'hwaifu' :
 reply(mess.waiting)
     waifudd = await axios.get(`https://waifu.pics/api/nsfw/waifu`)         
  let nwaifubot = [
-    {buttonId: `-${command}`, buttonText: {displayText: `>>`}, type: 1},
+    {buttonId: `.${command}`, buttonText: {displayText: `>>`}, type: 1},
     ]
   let button4Messages = {
    image: {url:waifudd.data.url},
@@ -4232,7 +4234,7 @@ case 'smug2':
 reply(mess.waiting)						
  waifudd = await axios.get(`https://nekos.life/api/v2/img/smug`)
                            var wbuttsss = [
-        {buttonId: `-smug2`, buttonText: {displayText: `>>`}, type: 1},
+        {buttonId: `.smug2`, buttonText: {displayText: `>>`}, type: 1},
         ]
       let button1ssMessages = {
        image: {url:waifudd.data.url},
@@ -4253,7 +4255,7 @@ case 'foxgirl':
 reply(mess.waiting)							
  waifudd = await axios.get(`https://nekos.life/api/v2/img/fox_girl`)
                            var wbuttsss = [
-        {buttonId: `-foxgirl`, buttonText: {displayText: `>>`}, type: 1},
+        {buttonId: `.foxgirl`, buttonText: {displayText: `>>`}, type: 1},
         ]
       let button12ssMessages = {
        image: {url:waifudd.data.url},
@@ -4274,7 +4276,7 @@ case 'animenom' :
 reply(mess.waiting)
     waifudd = await axios.get(`https://waifu.pics/api/sfw/nom`)
  let xxhnekobot = [
-    {buttonId: `-animenom`, buttonText: {displayText: `>>`}, type: 1},
+    {buttonId: `.animenom`, buttonText: {displayText: `>>`}, type: 1},
     ]
   let xx1button3Messages = {
    image: {url:waifudd.data.url},
@@ -4294,7 +4296,7 @@ case 'waifu3':
 reply(mess.waiting)						
  waifudd = await axios.get(`https://nekos.life/api/v2/img/waifu`)
                            var wbuttsss = [
-        {buttonId: `-waifu3`, buttonText: {displayText: `>>`}, type: 1},
+        {buttonId: `.waifu3`, buttonText: {displayText: `>>`}, type: 1},
         ]
       let button112ssMessages = {
        image: {url:waifudd.data.url},
@@ -4315,7 +4317,7 @@ case 'crossplay': case 'crosplay': case 'cosplay':
     if (isBanChat) return reply(mess.bangc)
     if (!m.isGroup) return replay(mess.grouponly)
                 const buttons = [
-        {buttonId: '-crossplay', buttonText: {displayText: '>>'}, type: 1},
+        {buttonId: '.crossplay', buttonText: {displayText: '>>'}, type: 1},
             ]               
         const cosplybutton = {
         image: {url: 'https://hanzz-web.herokuapp.com/api/randomimage/cosplay'},
@@ -4341,7 +4343,7 @@ case 'neko2':
 reply(mess.waiting)							
    waifud = await axios.get('https://waifu.pics/api/sfw/neko')
                 var wbutsss = [
-        {buttonId: `-neko2`, buttonText: {displayText: `>>`}, type: 1},
+        {buttonId: `.neko2`, buttonText: {displayText: `>>`}, type: 1},
         ]
       let buttonssMessage = {
        image: {url:waifud.data.url},
@@ -4366,7 +4368,7 @@ case 'tickle':
 reply(mess.waiting)							
  waifudd = await axios.get(`https://nekos.life/api/v2/img/${command}`)
                            var wbuttsss = [
-        {buttonId: `-${command}`, buttonText: {displayText: `>>`}, type: 1},
+        {buttonId: `.${command}`, buttonText: {displayText: `>>`}, type: 1},
         ]
       let buttonssMessages = {
        image: {url:waifudd.data.url},
@@ -4649,7 +4651,7 @@ if (!m.isGroup) return replay(mess.grouponly)
 reply(mess.waiting)							
 ud = await axios.get('https://waifu.pics/api/sfw/megumin')
 var wbutsss = [
-    {buttonId: `-megumin`, buttonText: {displayText: `>>`}, type: 1},
+    {buttonId: `.megumin`, buttonText: {displayText: `>>`}, type: 1},
          ]
       let buttonzMessage = {
       image: {url:ud.data.url},
@@ -4670,7 +4672,7 @@ case 'awoo':
     reply(mess.waiting)						
  waifudd = await axios.get(`https://waifu.pics/api/sfw/awoo`)
  var wbuttsss = [
-    {buttonId: `-awoo`, buttonText: {displayText: `>>`}, type: 1},
+    {buttonId: `.awoo`, buttonText: {displayText: `>>`}, type: 1},
     ]
   let button1Messages = {
    image: {url:waifudd.data.url},
@@ -4700,7 +4702,7 @@ const wall = new AnimeWallpaper();
             .catch(() => null);
 const i = Math.floor(Math.random() * wallpaper.length);
 var walb = [
-        {buttonId: `-animewall2 ${q}`, buttonText: {displayText: `>>`}, type: 1},        
+        {buttonId: `.animewall2 ${q}`, buttonText: {displayText: `>>`}, type: 1},        
         ]
       let wal = {
        image: {url:wallpaper[i].image},
@@ -4804,7 +4806,7 @@ case 'waifu' :
 reply(mess.waiting)	
     waifuddd = await axios.get('https://waifu.pics/api/sfw/waifu')
  var wbuttsssr = [
-    {buttonId: `-waifu`, buttonText: {displayText: `>>`}, type: 1},
+    {buttonId: `.waifu`, buttonText: {displayText: `>>`}, type: 1},
     ]
         let button4Messagess = {
         image: {url:waifuddd.data.url},
@@ -4825,7 +4827,7 @@ case 'neko' :
 reply(mess.waiting)	
     waifuddd = await axios.get('https://waifu.pics/api/sfw/neko')
  var wbuttsssr = [
-    {buttonId: `-neko`, buttonText: {displayText: `>>`}, type: 1},
+    {buttonId: `.neko`, buttonText: {displayText: `>>`}, type: 1},
     ]
         let buttonMessagessf = {
         image: {url:waifuddd.data.url},
@@ -4847,7 +4849,7 @@ case 'loli' :
 reply(mess.waiting)	
     waifuddd = await axios.get('https://waifu.pics/api/sfw/shinobu')
  var wbuttsssr = [
-    {buttonId: `-loli`, buttonText: {displayText: `>>`}, type: 1},
+    {buttonId: `.loli`, buttonText: {displayText: `>>`}, type: 1},
     ]
         let buttonMessagessfgr = {
         image: {url:waifuddd.data.url},
@@ -5003,12 +5005,12 @@ await sleep(1500)
 let btn = [{
 quickReplyButton: {
 displayText: '💡 Menu 💡',
-id: '-menu'
+id: '.menu'
 }  
 }, {
 quickReplyButton: {
 displayText: 'Bot Owner',
-id: '-owner'
+id: '.owner'
 }
 }]
 let txt = `「 *${global.OwnerName}'s Broadcast* 」\n\n${text}`
@@ -5690,7 +5692,7 @@ const helpmenu = `Hemlo *${pushname}* Dear...!! ,
 ⬡│▸
 ⬡│▸
 ⬡│▸ 『  *${global.BotName}*  』
-⬡│▸    Developed By: *Kai*
+⬡│▸    Developed By: *Shubham*
 ⬡│▸
 ⬡│▸ 🌹 To use any of these commands type 
 ⬡│▸ " *${prefix}<Command name>* ".
@@ -5701,9 +5703,9 @@ const helpmenu = `Hemlo *${pushname}* Dear...!! ,
     
 
  let buttonshelpm = [
-    {buttonId: `-owner`, buttonText: {displayText: '✨ Bot Owner ✨'}, type: 1},
-    {buttonId: `-nsfw`, buttonText: {displayText: '🥵nsfw💦'}, type: 1},
-    {buttonId: `-command`, buttonText: {displayText: '🔥 List Menu 🔥'}, type: 1}
+    {buttonId: `.owner`, buttonText: {displayText: '✨ Bot Owner ✨'}, type: 1},
+    {buttonId: `.nsfw`, buttonText: {displayText: '🥵nsfw💦'}, type: 1},
+    {buttonId: `.command`, buttonText: {displayText: '🔥 List Menu 🔥'}, type: 1}
     ]
                 let buttonMessage = {
                     video:fs.readFileSync('./system/A17_2.mp4'),gifPlayback:true,
@@ -5729,9 +5731,9 @@ case '':
  const needhelpmenu = `Do you need help ${pushname} Senpai? Type *${prefix}help* to get my full command list.`
      
          let butRun = [
-                {buttonId: `-help`, buttonText: {displayText: 'Help'}, type: 1},
-		{buttonId: `-owner`, buttonText: {displayText: '✨ owner ✨'}, type: 1},
-                {buttonId: `-support`, buttonText: {displayText: '🔥Support Group 🔥'}, type: 1},
+                {buttonId: `.help`, buttonText: {displayText: 'Help'}, type: 1},
+		{buttonId: `.owner`, buttonText: {displayText: '✨ owner ✨'}, type: 1},
+                {buttonId: `.support`, buttonText: {displayText: '🔥Support Group 🔥'}, type: 1},
                 ]
                 let buttonMessage = {
                     video:fs.readFileSync('./system/A17.mp4'),gifPlayback:true,
@@ -5838,7 +5840,7 @@ case 'weather':
     reply(`Running repl....Please wait until repl.it responds...`)						
     var replqr =  await getBuffer(`https://miku-qr--fantox001.repl.co/`)
                                var qrbutton = [
-            {buttonId: `-qr`, buttonText: {displayText: `Re-run Repl`}, type: 1}
+            {buttonId: `.qr`, buttonText: {displayText: `Re-run Repl`}, type: 1}
             ]
           let bmffg = {
            image: replqr,
