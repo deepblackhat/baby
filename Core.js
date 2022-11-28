@@ -3707,7 +3707,7 @@ if (isBanChat) return reply(mess.banChat)
 
                 let buf = await getBuffer(`https://cililitan.herokuapp.com/api/${command}?url=${anu}`)
 
-                A17.sendMessage(m.chat, { image: buf, caption: `Made by ${botname}` }, { quoted: m}).catch ((err) => reply(mess.error))
+                A17.sendMessage(m.chat, { image: buf, caption: `Made by ${pushname}` }, { quoted: m}).catch ((err) => reply(mess.error))
 
                 }
 
