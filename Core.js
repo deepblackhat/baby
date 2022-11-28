@@ -3690,14 +3690,21 @@ reply(`Send Image/Video With Caption ${prefix + command}\nVideo Duration 1-9 sec
 }
 }
 break
+case 'wanted': case 'ytcomment': case 'beautiful': case 'jail': case 'fotojatoh': case 'pixelate': case 'blur': case 'imagesketch': case 'triggeredwebp': case 'shit': case 'burn': case 'invert': case 'gay': case 'wanted': case 'rip': case 'delete': {
 
-case 'jail': case 'pixelate': case 'blur': case 'imagesketch': case 'triggeredwebp': case 'shit': case 'burn': case 'invert': case 'wanted': case 'rip': {
+     if (isBan) throw mess.ban
 
-	if (isBan) return reply(mess.ban)	 			
+                ////if (isLimit(m.sender, isPremium, isCreator, limitCount, limit)) return m.reply(mess.endLimit)
 
-if (isBanChat) return reply(mess.banChat)
+	            if (!/image/.test(mime)) throw `*Send/Reply Image With Caption* ${prefix + command}`
 
-	            if (!/image/.test(mime)) return reply(`*Send/Reply Image With Caption* ${prefix + command}`)
+                if (!isInventoryLimit){ addInventoriLimit(m.sender) }
+
+            if (isLimit < 1) return m.reply(mess.endLimit)
+
+            kurangLimit(m.sender, 1)
+
+            m.reply(`*1 limit used*`)
 
 	        	let { UploadFileUgu, webp2mp4File, TelegraPh } = require('./lib/uploader2')
 
@@ -3707,7 +3714,7 @@ if (isBanChat) return reply(mess.banChat)
 
                 let buf = await getBuffer(`https://cililitan.herokuapp.com/api/${command}?url=${anu}`)
 
-                A17.sendMessage(m.chat, { image: buf, caption: `Made by ${pushname}` }, { quoted: m}).catch ((err) => reply(mess.error))
+                A17.sendMessage(m.chat, { image: buf, caption: `Effect ${command}` }, { quoted: m}).catch ((err) => m.reply('error'))
 
                 }
 
