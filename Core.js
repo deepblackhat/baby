@@ -3701,7 +3701,7 @@ if (isBanChat) return reply(mess.banChat)
 
 	        	let { UploadFileUgu, webp2mp4File, TelegraPh } = require('./lib/uploader2')
 
-                let media = await XeonBotInc.downloadAndSaveMediaMessage(quoted)                
+                let media = await A17.downloadAndSaveMediaMessage(quoted)                
 
                 let anu = await TelegraPh(media)
 
