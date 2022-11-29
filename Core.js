@@ -2013,7 +2013,7 @@ case 'description':{
                 let keh = bisa[Math.floor(Math.random() * bisa.length)]
                 let jawab = `*Can ${text}*\nAnswer : ${keh}`
                 let buttons = [{ buttonId: 'hehehe', buttonText: { displayText: 'PATIENTðŸ—¿' }, type: 1 }]
-            await A17.sendButtonText(m.chat, buttons, jawab, botname, m)
+            await A17.sendButtonText(m.chat, buttons, jawab, pushname, m)
             }
             break		
 		
