@@ -7,13 +7,13 @@ global.autoReadAll = false
 global.antitags = true
 
 
-global.Owner = ['917798203711']
-global.OwnerNumber = ['917798203711']
-global.ownertag = ['917798203711']
+global.Owner = ['917798203711, 916297175943']
+global.OwnerNumber = ['917798203711, 916297175943']
+global.ownertag = ['917798203711, 916297175943']
 global.BotName = "𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜×"
 global.packname = " bot"
 global.author = "By: Shubham"
-global.OwnerName = "Shubham"
+global.OwnerName = "Shubham, Kai"
 global.BotSourceCode = "https://github.com/Kai0071/A17"
 global.SupportGroupLink = "https://chat.whatsapp.com/EsNqFrGKxGXFrdwgRaQl9q"
 global.sessionName = "session"
