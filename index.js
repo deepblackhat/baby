@@ -176,18 +176,14 @@ A17.sendMessage(anu.id, buttonMessage)
                 	let WAuserName = num
                     A17text = `
 Okay Bye 👋, @${WAuserName.split("@")[0]},
-
-Na kisi ka ab aankhen dekhengi koi sapna,
-
-Na kisi harjai ko hum kahenge ab apna.
-
-Kya apna kya begaana
-
-Sab ko humne pehchana
-
-Ja bewafa ja humein pyar nahi karna
-
-Ja bewafa ja humein pyar nahi karna,!
+╭━━╮
+┃╭╮┃
+┃╰╯╰┳╮╱╭┳━━╮
+┃╭━╮┃┃╱┃┃┃━┫
+┃╰━╯┃╰━╯┃┃━┫
+╰━━━┻━╮╭┻━━╯
+╱╱╱╱╭━╯┃
+╱╱╱╱╰━━╯
 `
 let buttons = [
 {buttonId: `.menu`, buttonText: {displayText: '𝘔𝘦𝘯𝘶 🍓'}, type: 1},
