@@ -1443,7 +1443,33 @@ for (let anju of xeonyaudio){
       reply ('Huh ${pushname} 😇. Wishing you an enjoyable afternoon too.');
     }
 	
-	
+	   if (smallinput.includes('arigato')|| smallinput.includes('arigatou') || smallinput.includes('kaise ho')) {
+      reply (`baby *${pushname}* 😇. thik hu aap batao.`);
+    }
+   
+   if (smallinput.includes('arigato')|| smallinput.includes('arigatou') || smallinput.includes('intro')) {
+      reply (`baby *${pushname}* 😇. iam bot and my owner is mr Shubham.`);
+    }
+    
+      if (smallinput.includes('arigato')|| smallinput.includes('arigatou') || smallinput.includes('love you')) {
+      reply (`baby *${pushname}* 😇. i love you too 😘❤️.`);
+    }
+    
+      if (smallinput.includes('arigato')|| smallinput.includes('arigatou') || smallinput.includes('khana huva')) {
+      reply (`baby *${pushname}* 😇. aap khila do na 🥺.`);
+    }
+    
+      if (smallinput.includes('arigato')|| smallinput.includes('arigatou') || smallinput.includes('baby')) {
+      reply (`hehe*${pushname}* 😇. ye Dakho nibba.`);
+    }
+    
+      if (smallinput.includes('arigato')|| smallinput.includes('arigatou') || smallinput.includes('😂🤣')) {
+      reply (`baby *${pushname}* 😇. has mat pagale pyar ho jayega.`);
+    }
+    
+      if (smallinput.includes('arigato')|| smallinput.includes('arigatou') || smallinput.includes('panchami')) {
+      reply (`yaar*${pushname}* 😇. o pagal hai .`);
+    }
 	
 	
     if (smallinput.includes('good night')) {
