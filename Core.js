@@ -3291,6 +3291,52 @@ Type *surrender* to surrender and admit defeat`
      await A17.groupParticipantsUpdate(m.chat, [users], 'remove')
      }
      break
+		
+ case  'rating' : {
+    if (isBan) return reply(mess.banned)	 			
+        if (isBanChat) return reply(mess.bangc)
+    let sections = []
+    let  nexusmenu = [`rate`,`rate`,`rate`,`rate`,`rate`,`rate`,`rate`]
+    let marin2 = [`☆ `,`☆☆ `,`☆☆☆ `,`☆☆☆☆ `,`☆☆☆☆☆`,`☆☆☆☆☆☆`,`☆☆☆☆☆☆☆ `]
+    let ne = [` thik tha bot`,`accha laga bot`,`kdk bro `,`nice bro `,`like it`,`tera bhi sahi hai`,`Dil jit lia `]
+    let startnum = 0; let startnu = 0; let startn = 0;let start = 0
+                let startnumm = 1
+                for (let x of nexusmenu) {
+                    const yy = {title: `${marin2[startnum++]}`,
+                rows: [
+                   {
+                    title: `${marin2[startnu++]}`,
+                   // description: `${ne[0]}`,
+                    rowId: `${prefix}${x}`
+                  }
+                ]
+               }
+                    sections.push(yy)
+                }
+                const sendm =  A17.sendMessage(
+  from, 
+  {
+   text: "rate",
+   footer: `${BotName}`,
+   title: "CHECK THE ......",
+   title: `\n╭╼━━━᚜ 𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜× ᚛━━━╾╮
+│                                                 ❒
+hey 🥵 User name    : ${pushname}
+please rate me 
+│                                                 ❒
+╰╼━━━━━━━━━━━━━━━━╾╯\n\n_Tap here for for rating_ 🐤👇\nㅤ`,
+   buttonText: "Click Button",
+   sections
+  }, { quoted : m }
+)  
+}
+
+break
+case 'rate': case 'rate2':
+    
+    reply(`${pushname}thanks:\n\n for rating baby`)
+    break
+
 
 
      case 'join': {
