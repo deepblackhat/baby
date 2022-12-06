@@ -188,7 +188,7 @@ Okay Bye 👋, @${WAuserName.split("@")[0]},
 let buttons = [
 {buttonId: `.menu`, buttonText: {displayText: '𝘔𝘦𝘯𝘶 🍓'}, type: 1},
 {buttonId: `.repo`, buttonText: {displayText: '🔥script🔥'}, type: 1},
-{buttonId: `.remove-me`, buttonText: {displayText: '😌*Nikal*😌'}, type: 1}
+{buttonId: `.rating`, buttonText: {displayText: 'rate my bot'}, type: 1}
 ]
     let buttonMessage = {
 	image:await getBuffer(ppuser),
