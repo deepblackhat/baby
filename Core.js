@@ -211,7 +211,25 @@ const q = args.join(' ')
 const isQuotedVideo = m.mtype === 'extendedTextMessage' && content.includes('videoMessage')
 const isQuotedAudio = m.mtype === 'extendedTextMessage' && content.includes('audioMessage')
 
-
+const time2 = moment().tz('Asia/Kolkata').format('HH:mm:ss')
+        if(time2 < "23:59:00"){
+        var ucapanWaktu = 'Good night 🌌'
+}
+        if(time2 < "19:00:00"){
+        var ucapanWaktu = 'Good afternoon 🌆'
+}
+        if(time2 < "18:00:00"){
+        var ucapanWaktu = 'Good afternoon 🌇'
+}
+        if(time2 < "15:00:00"){
+        var ucapanWaktu = 'Good afternoon 🏞'
+}
+        if(time2 < "11:00:00"){
+        var ucapanWaktu = 'Good morning 🌅'
+}
+        if(time2 < "05:00:00"){
+        var ucapanWaktu = 'Good night 🏙'
+}
 
 
 const mongoose = require("mongoose");
@@ -5970,7 +5988,7 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
       
-const helpmenu = `Hemlo *${pushname}* Dear...!! ,
+const helpmenu = ``*_${ucapanWaktu} *${pushname}* Dear...!! ,
 
 │───────────────────│
 ││▸ I am *A17*, 
@@ -6210,7 +6228,7 @@ case '':
       A17pic ='https://wallpapercave.com/wp/wp10524580.jpg'
     
         
- const needhelpmenu = `Do you need help ${pushname} Senpai? Type *${prefix}help* to get my full command list.`
+ const needhelpmenu = ` `*_${ucapanWaktu} Do you need help ${pushname} Senpai? Type *${prefix}help* to get my full command list.`
      
          let butRun = [
                 {buttonId: `.help`, buttonText: {displayText: 'Help'}, type: 1},
