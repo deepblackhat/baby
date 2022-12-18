@@ -148,20 +148,22 @@ A17.ev.on('group-participants.update', async (anu) => {
             
                 if (anu.action == 'add') {
                 let WAuserName = num
-                A17text = `✧─🆆🅴🅻🅲🅾🅼🅴─✧
-║🌚Hello @${WAuserName.split("@")[0]},
-║
-║🌞I am *A17 Bot*, Welcome to ${metadata.subject}.
-║
-║😁Dakho or ek aagaya 🫵🏻
-║
-║baby Description pe click karke o read kr 
-║✧────────────✧ 
+                A17text = `╭───═[ *welcome * ]═───⋆
+│╭───────────────···
+┴│▸ 
+⬡│▸🌚Hello @${WAuserName.split("@")[0]},
+⬡│▸
+⬡│▸ 🌞I am *A17 Bot*, Welcome to ${metadata.subject}.
+⬡│▸ 
+⬡│▸😁Dakho or ek aagaya 🫵🏻 
+⬡│▸ 
+⬡│▸ click on Description and read it
+ ╰────────────────··· 
 `
 let buttons = [
-{buttonId: `.menu`, buttonText: {displayText: '𝘔𝘦𝘯𝘶 🍓'}, type: 1},
-{buttonId: `.description`, buttonText: {displayText: '𝘎𝘳𝘰𝘶𝘱 𝘥𝘦𝘴𝘤𝘳𝘪𝘱𝘵𝘪𝘰𝘯 🧾'}, type: 1},
-{buttonId: `.owner`, buttonText: {displayText: '🔥owner🔥'}, type: 1}
+{buttonId: `menu`, buttonText: {displayText: 'welcome'}, type: 1},
+{buttonId: `.description`, buttonText: {displayText: '𝘎𝘳𝘰𝘶𝘱 𝘥𝘦𝘴𝘤𝘳𝘪𝘱𝘵𝘪𝘰𝘯 🧾'}, type: 2},
+//{buttonId: `.owner`, buttonText: {displayText: '🔥owner🔥'}, type: 1}
 ]
     let buttonMessage = {
     image: await getBuffer(ppgroup),
@@ -186,8 +188,8 @@ Okay Bye 👋, @${WAuserName.split("@")[0]},
 ╱╱╱╱╰━━╯
 `
 let buttons = [
-{buttonId: `.menu`, buttonText: {displayText: '𝘔𝘦𝘯𝘶 🍓'}, type: 1},
-{buttonId: `.repo`, buttonText: {displayText: '🔥script🔥'}, type: 1},
+//{buttonId: `.menu`, buttonText: {displayText: '𝘔𝘦𝘯𝘶 🍓'}, type: 1},
+{buttonId: `nikal`, buttonText: {displayText: '🔥nikal🔥'}, type: 2},
 {buttonId: `.rating`, buttonText: {displayText: 'rate my bot'}, type: 1}
 ]
     let buttonMessage = {
