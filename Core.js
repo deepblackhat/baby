@@ -5984,14 +5984,14 @@ if (isBanChat) return reply(mess.bangc)
 )}
 break
 
-case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
+case 'allmenu':{
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
       
-const helpmenu = `_${ucapanWaktu} *${pushname}* Dear...!! ,
+const helpmenu = ` *${pushname}* Dear...!! ,
 
 │───────────────────│
-││▸ I am *A17*, 
+││▸ Group :${groupMetadata.subject} 
 ││▸ Group :${groupMetadata.subject}
 │───────────────────│
 │╭────────────────···▸
@@ -6228,12 +6228,42 @@ case '':
       A17pic ='https://wallpapercave.com/wp/wp10524580.jpg'
     
         
- const needhelpmenu = ` ${ucapanWaktu}  ${pushname} Senpai? Type *${prefix}help* to get my full command list.`
+ const needhelpmenu = `╭─────═[ *INFO * ]═─────⋆
+ │╭───────────────···
+ ┴│▸ 
+ ⬡│▸
+ ⬡│▸*Bot usr name :* ${pushname} 
+ ⬡│▸ 
+ ⬡│▸Group :${groupMetadata.subject}
+ ⬡│▸ 
+ ⬡│▸ 
+ ⬡│▸ 
+ ┬│▸ 
+ │╰────────────────···
+ ┠─────═[ *TODAY* ]═─────⋆
+ │╭────────────────···
+ ┴│    
+ ⬡│▸*Time* : ${xtime}
+ ⬡│▸*Date* : ${xdate}
+ ┬│▸ 
+ │╰────────────────···
+ ┠────═[ *BOT INFO* ]═────⋆
+ │╭────────────────···
+ ┴│▸ *Bot usr name :* ${pushname} 
+ ⬡│▸ *My prefix is :*  ${prefix}
+ ⬡│▸ *Owner name :* ${global.OwnerName} 
+ ⬡│▸ *Bot speed :* ${latensie.toFixed(4)} ms 
+ ⬡│▸ *Total Bot user :* ${Object.keys(global.db.users).length}
+ ⬡│▸  *Platform :* Linux 
+ ⬡│▸ 
+ ┬│▸ 
+ │╰────────────────···
+ ╰──────────═┅═──────────.╯.`
      
          let butRun = [
-                {buttonId: `.help`, buttonText: {displayText: 'Help'}, type: 1},
-		{buttonId: `.owner`, buttonText: {displayText: '✨ owner ✨'}, type: 1},
-                {buttonId: `.support`, buttonText: {displayText: '🔥Support Group 🔥'}, type: 1},
+                {buttonId: `.allmenu`, buttonText: {displayText: 'menu'}, type: 1},
+		{buttonId: `.owner`, buttonText: {displayText: '✨ owner ✨'}, type: 2},
+              //  {buttonId: `.support`, buttonText: {displayText: '🔥Support Group 🔥'}, type: 1},
                 ]
                 let buttonMessage = {
                     video:fs.readFileSync('./system/A17.mp4'),gifPlayback:true,
@@ -6246,6 +6276,71 @@ case '':
                 }
 break
 
+case  'menu' : {
+    if (isBan) return reply(mess.banned)	 			
+        if (isBanChat) return reply(mess.bangc)
+    let sections = []
+    let  nexusmenu = [`allmenu`,`owner`,`rule`,`command  `,`  rating`]
+    let marin2 = [` all menu😎 `,`owner of this saxy bot `,`ruls and rugulation🤖 `,`list of command`,`rating `]
+    let ne = [` ONLY OWNER CAMMANDS`,`click TO GET TXT TO IMG MENU`,`TAP TO GET GROUPMENU`,`TAP TO GET FUNMENU`,`TAP TO GET DOWNLOADMENU`,`TAP TO GET VOICE CHANGER MENU`,`TAP TO GET ANIME MENU`]
+    let startnum = 0; let startnu = 0; let startn = 0;let start = 0
+                let startnumm = 1
+                for (let x of nexusmenu) {
+                    const yy = {title: `${marin2[startnum++]}`,
+                rows: [
+                   {
+                    title: `${marin2[startnu++]}`,
+                   // description: `${ne[0]}`,
+                    rowId: `${prefix}${x}`
+                  }
+                ]
+               }
+                    sections.push(yy)
+                }
+                const sendm =  A17.sendMessage(
+  from, 
+  {
+   text: "LIST MENU",
+   footer: `${BotName}`,
+   title: "CHECK THE MENU LIST......",
+   title: `\n╭─────═[ *INFO * ]═─────⋆
+│╭───────────────···
+┴│▸ 
+⬡│▸ 
+⬡│▸ 
+⬡│▸ 
+⬡│▸ 
+⬡│▸ 
+⬡│▸ 
+⬡│▸ 
+┬│▸ 
+│╰────────────────···
+┠─────═[ *TODAY* ]═─────⋆
+│╭────────────────···
+┴│    
+⬡│▸*Time* : ${xtime}
+⬡│▸*Date* : ${xdate}
+┬│▸ 
+│╰────────────────···
+┠────═[ *BOT INFO* ]═────⋆
+│╭────────────────···
+┴│▸ *Bot usr name :* ${pushname} 
+⬡│▸ *My prefix is :*  ${prefix}
+⬡│▸ *Owner name :* ${global.OwnerName} 
+⬡│▸ *Bot speed :* ${latensie.toFixed(4)} ms 
+⬡│▸ *Total Bot user :* ${Object.keys(global.db.users).length}
+⬡│▸  *Platform :* Linux 
+⬡│▸ 
+┬│▸ 
+│╰────────────────···
+╰──────────═┅═──────────.╯\n\n_Tap here for *Full commands*_ 🐤👇\nㅤ`,
+   buttonText: "Click Button",
+   sections
+  }, { quoted : m }
+)  
+}
+
+break
 
 
 case 'A17': case '17': 
