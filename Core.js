@@ -5988,7 +5988,7 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
       
-const helpmenu = ``*_${ucapanWaktu} *${pushname}* Dear...!! ,
+const helpmenu = `_${ucapanWaktu} *${pushname}* Dear...!! ,
 
 │───────────────────│
 ││▸ I am *A17*, 
@@ -6228,7 +6228,7 @@ case '':
       A17pic ='https://wallpapercave.com/wp/wp10524580.jpg'
     
         
- const needhelpmenu = ` `*_${ucapanWaktu} Do you need help ${pushname} Senpai? Type *${prefix}help* to get my full command list.`
+ const needhelpmenu = ` ${ucapanWaktu}  ${pushname} Senpai? Type *${prefix}help* to get my full command list.`
      
          let butRun = [
                 {buttonId: `.help`, buttonText: {displayText: 'Help'}, type: 1},
