@@ -148,17 +148,23 @@ A17.ev.on('group-participants.update', async (anu) => {
             
                 if (anu.action == 'add') {
                 let WAuserName = num
+                const xtime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
+	            const xdate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
+	            const xmembers = metadata.participants.length
                 A17text = `╭───═[ *welcome * ]═───⋆
 │╭───────────────···
-┴│▸ 
+┴│▸ hii iam ghost
 ⬡│▸🌚Hello @${WAuserName.split("@")[0]},
-⬡│▸
-⬡│▸ 🌞I am *A17 Bot*, Welcome to ${metadata.subject}.
+⬡│▸𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 
+⬡│▸${metadata.subject}.
+⬡│▸𝗠𝗲𝗺𝗯𝗲𝗿 : 
+⬡│▸${xmembers}th
+⬡│▸${xdate} 
+⬡│▸${xtime}
 ⬡│▸ 
-⬡│▸😁Dakho or ek aagaya 🫵🏻 
-⬡│▸ 
-⬡│▸ click on Description and read it
  ╰────────────────··· 
+ dont forgate to read 𝘎𝘳𝘰𝘶𝘱 𝘥𝘦𝘴𝘤𝘳𝘪𝘱𝘵𝘪𝘰𝘯
+
 `
 let buttons = [
 {buttonId: `menu`, buttonText: {displayText: 'welcome'}, type: 1},
