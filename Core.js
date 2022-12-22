@@ -6228,36 +6228,24 @@ case '':
       A17pic ='https://wallpapercave.com/wp/wp10524580.jpg'
     
         
- const needhelpmenu = `╭─────═[ *INFO * ]═─────⋆
- │╭───────────────···
- ┴│▸ iam Ghost 👻
- ⬡│▸*name :* ${pushname} 
- ⬡│▸Premium: no
- ⬡│▸Age: 18 
- ⬡│▸Limit: no
- ⬡│▸Money:0000 
- ⬡│▸lavel: 404 
- ┬│▸Xp: error 
- │╰────────────────···
- ┠─────═[ *TODAY* ]═─────⋆
- │╭────────────────···
- ┴│    
- ⬡│▸*Time* : ${xtime}
- ⬡│▸*Date* : ${xdate}
- ┬│▸ 
- │╰────────────────···
- ┠────═[ *BOT INFO* ]═────⋆
- │╭────────────────···
- ┴│▸ *Bot usr name :* ${pushname} 
- ⬡│▸ *My prefix is :*  ${prefix}
- ⬡│▸ *Owner name :* ${global.OwnerName} 
- ⬡│▸ *Bot speed :* ${latensie.toFixed(4)} ms 
- ⬡│▸ *Total Bot user :* ${Object.keys(global.db.users).length}
- ⬡│▸  *Platform :* Linux 
- ⬡│▸ 
- ┬│▸ 
- │╰────────────────···
- ╰──────────═┅═──────────.╯.`
+ const needhelpmenu = `╭━━━━━━━━━━━━━━━━┈─✧
+┴
+│⬡${ucapanWaktu}..
+│⬡Name :${pushname} 
+│⬡My prefix is :${prefix}
+│⬡Owner name : ${global.OwnerName}
+│⬡Bot speed : ${latensie.toFixed(4)} ms 
+│⬡Total Bot user : ${Object.keys(global.db.users).length} 
+│⬡Platform : Linux 
+│⬡ *Time*: ${xtime} 
+┬
+├━━━━━━━━━━━━━━━━┈─⋆
+│ ▸Instagram: https://www.instagram.com/i_a_m_ghost_/
+┴ ▸Owner: SHUBHAM
+✧
+┬ 📌 𝗣𝗶𝗻𝗻𝗲𝗱 :
+│ Please don't spam bro
+╰━━━━━━━━━━━━━━━━┈─◂`
      
          let butRun = [
                 {buttonId: `.allmenu`, buttonText: {displayText: 'menu'}, type: 1},
