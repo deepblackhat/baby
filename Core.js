@@ -6263,71 +6263,61 @@ case '':
                 }
 break
 
-case  'menu' : {
+case 'menu':
+    if(isCmd){
     if (isBan) return reply(mess.banned)	 			
-        if (isBanChat) return reply(mess.bangc)
-    let sections = []
-    let  nexusmenu = [`allmenu`,`owner`,`rule`,`command  `,`  rating`]
-    let marin2 = [` all menu😎 `,`owner of this saxy bot `,`ruls and rugulation🤖 `,`list of command`,`rating `]
-    let ne = [` ONLY OWNER CAMMANDS`,`click TO GET TXT TO IMG MENU`,`TAP TO GET GROUPMENU`,`TAP TO GET FUNMENU`,`TAP TO GET DOWNLOADMENU`,`TAP TO GET VOICE CHANGER MENU`,`TAP TO GET ANIME MENU`]
-    let startnum = 0; let startnu = 0; let startn = 0;let start = 0
-                let startnumm = 1
-                for (let x of nexusmenu) {
-                    const yy = {title: `${marin2[startnum++]}`,
-                rows: [
-                   {
-                    title: `${marin2[startnu++]}`,
-                   // description: `${ne[0]}`,
-                    rowId: `${prefix}${x}`
-                  }
-                ]
-               }
-                    sections.push(yy)
-                }
-                const sendm =  A17.sendMessage(
-  from, 
-  {
-   text: "LIST MENU",
-   footer: `${BotName}`,
-   title: "CHECK THE MENU LIST......",
-   title: `\n╭─────═[ *INFO * ]═─────⋆
-│╭───────────────···
-┴│▸ iam Ghost 👻👻
-⬡│▸Bot usr name :* ${pushname} 
-⬡│▸Premium: no
-⬡│▸Age: 18
-⬡│▸Limit: no
-⬡│▸Money:0000
-⬡│▸lavel: 404 
-⬡│▸xp:error 
-┬│▸ 
-│╰────────────────···
-┠─────═[ *TODAY* ]═─────⋆
-│╭────────────────···
-┴│    
-⬡│▸*Time* : ${xtime}
-⬡│▸*Date* : ${xdate}
-┬│▸ 
-│╰────────────────···
-┠────═[ *BOT INFO* ]═────⋆
-│╭────────────────···
-┴│▸ *Bot usr name :* ${pushname} 
-⬡│▸ *My prefix is :*  ${prefix}
-⬡│▸ *Owner name :* ${global.OwnerName} 
-⬡│▸ *Bot speed :* ${latensie.toFixed(4)} ms 
-⬡│▸ *Total Bot user :* ${Object.keys(global.db.users).length}
-⬡│▸  *Platform :* Linux 
-⬡│▸ 
-┬│▸ 
-│╰────────────────···
-╰──────────═┅═──────────.╯\n\n_Tap here for *Full commands*_ 🐤👇\nㅤ`,
-   buttonText: "Click Button",
-   sections
-  }, { quoted : m }
-)  
-}
+    if (isBanChat) return reply(mess.bangc)
 
+      A17pic ='https://wallpapercave.com/wp/wp10524580.jpg'
+    
+const isPremium = isCreator || global.premium.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender) || false     
+ const needhelpmenu = `┏─────────────────⬣
+ ┆ 𝑯𝒂𝒊, ${ucapanWaktu} ${pushname}
+ ┗┬──────────────┈ ⳹
+ ┏┤ Bot Info
+ ┆┗──────────────┈ ⳹
+ ┆♠︎ 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : ${global.botname}
+ ┆♠︎ 𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲 :${global.OwnerName}
+ ┆♠︎ 𝗢𝘄𝗻𝗲𝗿 𝗡𝗼. :${global.OwnerName}
+ ┆♠︎ 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 𝗡𝗮𝗺𝗲 :MR shubham
+ ┆♠︎ 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 :linux 
+ ┆♠︎ 𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 :${Object.keys(global.db.users).length} 
+ ┆♠︎ 𝗧𝗼𝘁𝗮𝗹 𝗛𝗶𝘁 :${jumlahcmd}
+ ┆♠︎ 𝗧𝗼𝘁𝗮𝗹 𝗛𝗶𝘁 𝗧𝗼𝗱𝗮𝘆 :${jumlahcmd}
+ ┆♠︎ 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 :${runtime(process.uptime())}
+ ┆♠︎ 𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
+ ┗┬──────────────┈ ⳹
+ ┏┤   User Info
+ ┆┗──────────────┈ ⳹ 
+ ┆♠︎ 𝗡𝗮𝗺𝗲 : ${pushname}
+ │♠︎ 𝗡𝘂𝗺𝗯𝗲𝗿 :@917798203711
+ │♠︎ 𝗣𝗿𝗲𝗺𝗶𝘂𝗺 :${isPremium ? '✅' : `❌`}
+ │♠︎ 𝗟𝗶𝗺𝗶𝘁 :${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`} 
+ ┗┬──────────────┈ ⳹
+ ┏┤ Calender
+ ┆┗──────────────┈ ⳹
+ ┆𝗗𝗮𝘁𝗲 : ${xdate}
+ ┆𝗧𝗶𝗺𝗲 : ${xtime}
+ ┗─────────────────⬣
+`
+     
+         let butRun = [
+                {buttonId: `.allmenu`, buttonText: {displayText: 'menu'}, type: 1},
+		{buttonId: `.command`, buttonText: {displayText: 'all menu'}, type: 1},
+                {buttonId: `.owner`, buttonText: {displayText: 'owner of this saxy bot'}, type: 1},
+                ]
+                let buttonMessage = {
+                    video:fs.readFileSync('./system/A17.mp4'),gifPlayback:true,
+                    caption: needhelpmenu,
+                    footer: `${global.BotName}`,
+                    buttons: butRun,
+                    headerType: 4
+                }
+            A17.sendMessage(m.chat,buttonMessage,{quoted:m})
+                }
 break
+
+
 
 
 case 'A17': case '17': 
