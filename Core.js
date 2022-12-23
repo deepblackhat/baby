@@ -3341,12 +3341,12 @@ Type *surrender* to surrender and admit defeat`
    text: "rate",
    footer: `${BotName}`,
    title: "CHECK THE ......",
-   title: `\n╭╼━━━᚜ 𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜× ᚛━━━╾╮
-│                                                 ❒
-hey 🥵 User name    : ${pushname}
+   title: `
+
+hey 🥵 User name:${pushname}
 please rate me 
-│                                                 ❒
-╰╼━━━━━━━━━━━━━━━━╾╯\n\n_Tap here for for rating_ 🐤👇\nㅤ`,
+
+`,
    buttonText: "Click Button",
    sections
   }, { quoted : m }
