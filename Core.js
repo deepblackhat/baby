@@ -1867,7 +1867,61 @@ let sections = []
 })
 }
   break
-
+case 'rateme': case 'ratebot':{
+                	   if (isBan) return reply(mess.banned)
+	if (isBanChat) return reply(mess.bangc)
+let pika = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
+                listMessage :{
+                    title: `Hey *${pushname}* ❤️`,
+                    description: `\n𝗥𝗮𝘁𝗲 𝗺𝘆 𝗕𝗼𝘁 𝗵𝗲𝗿𝗲 👇🏻\nㅤ`,
+                    buttonText: "Tap Here ⭐️" ,
+                    footerText: `${footer}`,
+                    listType: "SINGLE_SELECT",
+                    sections: [{
+								"title": "Rate bot ❤️",
+								"rows": [
+									{
+										"title": "🌟🌟🌟🌟🌟",
+										"description": "5 stars",
+										"rowId": `${prefix}ratebot1 🌟🌟🌟🌟🌟`
+									},
+                                                                        {
+											"title": "🌟🌟🌟🌟",
+										"description": "4 stars",
+										"rowId": `${prefix}ratebot1 🌟🌟🌟🌟`
+										},
+									{
+										"title": "⭐🌟⭐",
+										"description": "3 stars",
+										"rowId": `${prefix}ratebot1 🌟🌟🌟`
+										},
+									{
+										"title": "⭐⭐",
+										"description": "2 star",
+										"rowId": `${prefix}ratebot1 ⭐⭐`
+										},
+									{
+										"title": "⭐",
+										"description": "1 star",
+										"rowId": `${prefix}ratebot1 ⭐`
+										},
+										{
+										"title": "↘️",
+										"description": "0 star",
+										"rowId": `${prefix}ratebot1 0`
+										}
+                                                     }
+						],
+          listType: 1
+                }
+            }), {})            
+            A17.relayMessage(m.chat, pika.message, { messageId: pika.key.id })
+            }                                  
+            break
+case 'ratebot1': {
+reply(`${pushname} thanks for rating me ${text} star!!`)
+}
+break
 
   case 'grupsetting':
     case 'groupsetting':{
