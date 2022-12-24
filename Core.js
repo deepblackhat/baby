@@ -6247,12 +6247,40 @@ const helpmenu = ` ${ucapanWaktu}...*${pushname}* Dear...!! ,
 │╭───────────────···▸
 ┴│▸
 ⬡│▸ reaction, truth, dare
-⬡│▸ couple, soulmate, handsomecheck
-⬡│▸ beautifulcheck, awesomecheck
-⬡│▸ greatcheck, gaycheck, cutecheck
+⬡│▸ couple, soulmate, 
+⬡│▸handsomecheck,
+⬡│▸ beautifulcheck, 
+⬡│▸ greatcheck, gaycheck, 
+⬡│▸ cutecheck, awesomecheck
+⬡│▸ handsomecheck,
 ⬡│▸ uglycheck, charactercheck
 ⬡│▸ lesbiancheck, hornycheck,
 ⬡│▸ prettycheck, lovelycheck,
+┬│▸
+╰────────────────···▸
+┠━━〈 🈴 fun menu 🈴 〉━━
+│╭───────────────···▸
+⬡│▸ stupit, foolish
+⬡│▸ smart, idiot, gay
+⬡│▸ lesbi, bastsrd, dog
+⬡│▸ stubble, fuck, ape
+⬡│▸ noob, grreat, horny
+⬡│▸ wibu, asshole, cute
+⬡│▸ handsome, kind, ugly
+⬡│▸ pretty, lesbian, kala
+⬡│▸ randi, gandu, gora
+⬡│▸ madarchod, chutiya
+⬡│▸ nibba, nibbi, 
+⬡│▸ bhosdiwala, chutmarika
+⬡│▸ bokachoda, muthal
+⬡│▸ muthbaz, randbaz, hot
+⬡│▸ badk, nigga, mamu
+⬡│▸ nets, dope, lit
+⬡│▸ dumbass, boka, saxy
+⬡│▸ bal, playboy, mf
+⬡│▸ fuckboy, fuckgurl
+⬡│▸ hot, loda, lund
+⬡│▸
 ┬│▸
 ╰────────────────···▸
 ┠━━〈 🈴 *Weeb* 🈴 〉━━
@@ -6267,6 +6295,13 @@ const helpmenu = ` ${ucapanWaktu}...*${pushname}* Dear...!! ,
 ⬡│▸ awoo, animewallpaper2
 ⬡│▸ anime, manga
 ┬│▸
+╰────────────────···▸
+┠━━〈 ♨️ games  ♨️ 〉━━
+│╭───────────────···▸
+┴│▸
+⬡│▸ ttt,
+⬡│▸ casino
+┬│▸ truth, dare
 ╰────────────────···▸
 ┠━━〈 ♨️ *Informative* ♨️ 〉━━
 │╭───────────────···▸
