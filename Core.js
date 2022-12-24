@@ -3318,7 +3318,7 @@ Type *surrender* to surrender and admit defeat`
     if (isBan) return reply(mess.banned)	 			
         if (isBanChat) return reply(mess.bangc)
     let sections = []
-    let  nexusmenu = [`rate`,`rate`,`rate`,`rate`,`rate`,`rate`,`rate`]
+    let  nexusmenu = [`rate2`,`rate2`,`rate2`,`rate2`,`rate2`,`rate2`,`rate2`]
     let marin2 = [`☆ `,`☆☆ `,`☆☆☆ `,`☆☆☆☆ `,`☆☆☆☆☆`,`☆☆☆☆☆☆`,`☆☆☆☆☆☆☆ `]
     let ne = [` thik tha bot`,`accha laga bot`,`kdk bro `,`nice bro `,`like it`,`tera bhi sahi hai`,`Dil jit lia `]
     let startnum = 0; let startnu = 0; let startn = 0;let start = 0
