@@ -1513,7 +1513,7 @@ for (let anju of xeonyaudio){
     }
 	
 	 if (smallinput=='ping') {
-        reply ('Hey ${pushname} Pong ${latensie.toFixed(4)} ms')
+        reply ('pong')
     }
 
     if (smallinput.includes('good morning') || smallinput.includes('ohayo')) {
@@ -1538,19 +1538,19 @@ for (let anju of xeonyaudio){
     }
     
       if (smallinput.includes('arigato')|| smallinput.includes('arigatou') || smallinput.includes('khana huva')) {
-      reply (`baby *${pushname}* 😇. aap khila do na 🥺.`);
+      reply (`*${pushname}* 😇. aap khila do na 🥺.`);
     }
     
       if (smallinput.includes('arigato')|| smallinput.includes('arigatou') || smallinput.includes('baby')) {
-      reply (`hehe*${pushname}* 😇. ye Dakho nibba.`);
+      reply (`hehe*${pushname}* mai tuje kaha se baby lag rahi hu`);
     }
     
       if (smallinput.includes('arigato')|| smallinput.includes('arigatou') || smallinput.includes('😂🤣')) {
       reply (`baby *${pushname}* 😇. has mat pagale pyar ho jayega.`);
     }
     
-      if (smallinput.includes('arigato')|| smallinput.includes('arigatou') || smallinput.includes('panchami')) {
-      reply (`yaar*${pushname}* 😇. o pagal hai .`);
+      if (smallinput.includes('mavii')|| smallinput.includes('mau') || smallinput.includes('mavi')) {
+      reply (`yaar*${pushname}* o mare owner ki bastie hai`);
     }
 	
 	
@@ -1561,12 +1561,24 @@ for (let anju of xeonyaudio){
     if (smallinput.includes('arigato')|| smallinput.includes('arigatou') || smallinput.includes('thank')) {
       reply (`Mention not ${pushname} 😇. I am a bot afterall.`);
     }
-	
-	
-	
-	
-	
 
+    if (smallinput.includes('sorry')) {
+      reply (`tatti ke haath dhoye nahi jate chale pap dhone`);
+    }
+	
+ if (smallinput.includes('tq')|| smallinput.includes('thanks') || smallinput.includes('thank you')) {
+      reply (`dosti me thanks nahi boltay`);
+	
+	
+if (smallinput.includes('mc')|| smallinput.includes('bc') || smallinput.includes('bsdk')) {
+      reply (`gali kyu date ho yaar tum log`);
+
+	if (smallinput.includes('ayush')|| smallinput.includes('pratap') || smallinput.includes('auxi')) {
+      reply (`ha bhai o mare owner ke jaan log hai`);
+	
+	 if (smallinput.includes('aditya')) {
+      reply (`jaan hai o mari`);
+	
 switch(command) {
 	
     case 'sc': case 'script': case 'sourcecode': {
@@ -1575,7 +1587,7 @@ switch(command) {
     let { data } = await axios.get('https://api.github.com/repos/Kai0071/A17');
     teks = `*A17 Script*\n\n*Total Stars*: ${data.stargazers_count}⭐\n*Total Forks*: ${data.forks_count} forks\n*GitHub*: https://github.com/Kai0071/A17\n\nDont forget to follow me on *GitHub* and give a ⭐️ to my projects. `
     let buttons = [
-    {buttonId: `-menu`, buttonText: {displayText: '🍁 Bot Menu 🍁'}, type: 1}
+    {buttonId: `.menu`, buttonText: {displayText: '🍁 Bot Menu 🍁'}, type: 1}
     ]
     let buttonMessage = {
     image: Thumb,
@@ -1631,7 +1643,7 @@ case 'me': case 'profile': case 'p':
 
 
 let buttonspro = [
-    {buttonId: `-soulmate`, buttonText: {displayText: 'Your Soulmate'}, type: 1}
+    {buttonId: `.soulmate`, buttonText: {displayText: 'Your Soulmate'}, type: 1}
     ]
             let buttonMessage = {
                 image: { url: pfp },
@@ -6354,7 +6366,7 @@ const helpmenu = ` ${ucapanWaktu}...*${pushname}* Dear...!! ,
  let buttonshelpm = [
     {buttonId: `.owner`, buttonText: {displayText: '✨ Bot Owner ✨'}, type: 1},
     {buttonId: `.nsfw`, buttonText: {displayText: '🥵nsfw💦'}, type: 1},
-    {buttonId: `.command`, buttonText: {displayText: '🔥 List Menu 🔥'}, type: 1}
+    {buttonId: `.listmenu`, buttonText: {displayText: '🔥 List Menu 🔥'}, type: 1}
     ]
                 let buttonMessage = {
                     video:fs.readFileSync('./system/A17_2.mp4'),gifPlayback:true,
