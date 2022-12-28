@@ -1566,18 +1566,6 @@ for (let anju of xeonyaudio){
       reply (`tatti ke haath dhoye nahi jate chale pap dhone`);
     }
 	
- if (smallinput.includes('tq')|| smallinput.includes('thanks') || smallinput.includes('thank you')) {
-      reply (`dosti me thanks nahi boltay`);
-	
-	
-if (smallinput.includes('mc')|| smallinput.includes('bc') || smallinput.includes('bsdk')) {
-      reply (`gali kyu date ho yaar tum log`);
-
-	if (smallinput.includes('ayush')|| smallinput.includes('pratap') || smallinput.includes('auxi')) {
-      reply (`ha bhai o mare owner ke jaan log hai`);
-	
-	 if (smallinput.includes('aditya')) {
-      reply (`jaan hai o mari`);
 	
 switch(command) {
 	
