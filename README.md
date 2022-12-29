@@ -1,16 +1,4 @@
-<p align="center">
-<img src="./nexusmedia/Nexus.gif" width="520"/>
-<p align="center">
-</p>
-  
-<div align="center">
-  
-## ╭━≺👑𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜×👑≻━╮
-  
-## welcome bro
-  
-## ╰━≺👑𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜×👑≻━╯
-  
+
 
 
 <!-- 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐎𝐖𝐍𝐄𝐑 -->
