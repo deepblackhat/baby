@@ -5,43 +5,12 @@
   
 <div align="center">
   
-## ╭━━≺👑𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜×👑≻━━╮
+## ╭━≺👑𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜×👑≻━╮
   
 ## welcome bro
   
-## ╰━━≺👑𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜×👑≻━━╯
+## ╰━≺👑𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜×👑≻━╯
   
-<br>
-<div>
-<br>
-
-<p align="center">
-❯❯😎Kick bellow topics😒❮❮
-</p>
-<p align="center">
-👇To proccess👇
-</p>
-  
- <div align="center">
-  
-<a href="https://replit.com/@DEVILL-MASCOT/marin?v=1"><img align="center" src="https://c.tenor.com/gmsbfgRbzuYAAAAC/marin-kitagawa.gif" alt="Scan QR" width="520" />
-##   ⪻━━━≺ 𝐂𝐥𝐢𝐜𝐤  𝐓𝐨 𝐒𝐜𝐚𝐧 𝐐𝐫 𝐂𝐨𝐝𝐞  ≻━━━⪼
-</a>
-<br>
-<div> 
-<br>
-
-<a href="https://heroku.com/deploy?template=https://github.com/NEXUSAT12/MARIN" target="blank"><img align="center" src="https://c.tenor.com/DO2R1nI7hOcAAAAC/marin-kitagawa.gif" alt="Deploy bot" width="520"/>
-
-##  ⪻━━━≺ 𝐂𝐋𝐈𝐂𝐊  𝐓𝐎 𝐃𝐄𝐏𝐋𝐎𝐘  ≻━━━⪼
-</a>
-<div>
-<br>
-
-<a href="https://github.com/NEXUSAT12/MARIN/fork"><img align="center" src="https://c.tenor.com/Vf6ZPQU3zMoAAAAC/marin-kitagawa-marin.gif" alt="Fork and deploy" width="520" /></a>
-##   ⪻━━━━≺ 𝐂𝐋𝐈𝐂𝐊 𝐓𝐎 𝐅𝐎𝐑𝐊  ≻━━━━⪼
-<div>
-<br>
 
 
 <!-- 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐎𝐖𝐍𝐄𝐑 -->
