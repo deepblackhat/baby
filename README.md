@@ -1,6 +1,6 @@
 <p align="center">
    <a href="https://github.com/Kai0071">
-    <div style="width:100%;height:0;padding-bottom:62%;position:relative;"><iframe src="https://giphy.com/embed/v4JbTGe4KJjKo" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/kiss-halloween-ghost-v4JbTGe4KJjKo">via GIPHY</a></p>
+     <img src="https://giphy.com/gifs/kiss-halloween-ghost-v4JbTGe4KJjKo" width="610">
      
 </p>
 <h1 align="center"> A17 BoT (Beta)
