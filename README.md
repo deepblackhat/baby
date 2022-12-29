@@ -5,11 +5,11 @@
   
 <div align="center">
   
-## ╭━━━≺👑 𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜×👑≻━━━╮
+## ╭━━━≺👑𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜×👑≻━━━╮
   
-## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar&duration=5316&pause=1064&color=F70D0C&width=435&lines=WELCOME+TO+THE+MARIN-BOT;POWERED+BY+TEAM-X_FIRE;CREATED+BY+NEXUS;HOPE+YOU+ENJOY+THE+BOT+;AND+DONT+FORGET+TO+FOLLOW)](https://git.io/typing-svg)
+## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar&duration=5316&pause=1064&color=F70D0C&width=435&lines=WELCOME+TO+THE+𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜×;POWERED+BY+TEAM-X_FIRE;CREATED+BY+NEXUS;HOPE+YOU+ENJOY+THE+BOT+;AND+DONT+FORGET+TO+FOLLOW)](https://git.io/typing-svg)
   
-## ╰━━━≺👑 𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜× 👑≻━━━╯
+## ╰━━━≺👑𓄂⍣⃝🇬𝚑𝚘𝚜𝚝 ×͜×👑≻━━━╯
   
 <br>
 <div>
