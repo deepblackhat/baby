@@ -169,7 +169,7 @@ A17.ev.on('group-participants.update', async (anu) => {
 let buttons = [
 {buttonId: `menu`, buttonText: {displayText: 'welcome'}, type: 1},
 {buttonId: `.description`, buttonText: {displayText: '𝘎𝘳𝘰𝘶𝘱 𝘥𝘦𝘴𝘤𝘳𝘪𝘱𝘵𝘪𝘰𝘯 🧾'}, type: 2},
-//{buttonId: `.owner`, buttonText: {displayText: '🔥owner🔥'}, type: 1}
+//{buttonId: `.remove`, buttonText: {displayText: 'remove me😑'}, type: 1}
 ]
     let buttonMessage = {
     image: await getBuffer(ppgroup),
