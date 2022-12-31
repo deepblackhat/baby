@@ -5813,7 +5813,7 @@ if (isBanChat) return reply(mess.bangc)
 )}
 break
 
-case  'command' : {
+case  'listmenu' : {
 		if (isBan) return reply(mess.banned)	 			
     		if (isBanChat) return reply(mess.bangc)
 		let sections = []
@@ -6452,7 +6452,7 @@ const isPremium = isCreator || global.premium.map(v => v.replace(/[^0-9]/g, '') 
      
          let butRun = [
                 {buttonId: `.allmenu`, buttonText: {displayText: 'menu'}, type: 1},
-		{buttonId: `.command`, buttonText: {displayText: 'all menu'}, type: 1},
+		{buttonId: `.listmenu`, buttonText: {displayText: 'all menu'}, type: 1},
                 {buttonId: `.owner`, buttonText: {displayText: 'owner of this saxy bot'}, type: 1},
                 ]
                 let buttonMessage = {
