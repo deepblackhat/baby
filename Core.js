@@ -6380,16 +6380,16 @@ case '':
  const needhelpmenu = `╭━━━━━━━━━━━━━━━━┈─✧
 ┴
 │⬡${ucapanWaktu}..
-│⬡Name :${pushname} 
-│⬡My prefix is :${prefix}
-│⬡Owner name : ${global.OwnerName}
-│⬡Bot speed : ${latensie.toFixed(4)} ms 
-│⬡Total Bot user : ${Object.keys(global.db.users).length} 
-│⬡Platform : Linux 
-│⬡ *Time*: ${xtime} 
+│⬡𝗡𝗮𝗺𝗲 :${pushname} 
+│⬡𝗠𝘆 𝗽𝗿𝗲𝗳𝗶𝘅 𝗶𝘀 :${prefix}
+│⬡𝗢𝘄𝗻𝗲𝗿 𝗻𝗮𝗺𝗲 : ${global.OwnerName}
+│⬡𝗕𝗼𝘁 𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} ms 
+│⬡𝗧𝗼𝘁𝗮𝗹 𝗯𝗼𝘁 𝘂𝘀𝗲𝗿 : ${Object.keys(global.db.users).length} 
+│⬡𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : Linux 
+│⬡𝗧𝗶𝗺𝗲 : ${xtime} 
 ┬
 ├━━━━━━━━━━━━━━━━┈─⋆
-│ ▸Instagram: https://www.instagram.com/i_a_m_ghost_/
+│ ▸𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺: https://www.instagram.com/i_a_m_ghost_/
 ┴ ▸Owner: SHUBHAM
 ✧
 ┬ 📌 𝗣𝗶𝗻𝗻𝗲𝗱 :
@@ -6397,7 +6397,7 @@ case '':
 ╰━━━━━━━━━━━━━━━━┈─◂`
      
          let butRun = [
-                {buttonId: `.allmenu`, buttonText: {displayText: 'menu'}, type: 1},
+                {buttonId: `.allmenu`, buttonText: {displayText: 'menu🐼'}, type: 1},
 		{buttonId: `.owner`, buttonText: {displayText: '✨ owner ✨'}, type: 2},
               //  {buttonId: `.support`, buttonText: {displayText: '🔥Support Group 🔥'}, type: 1},
                 ]
